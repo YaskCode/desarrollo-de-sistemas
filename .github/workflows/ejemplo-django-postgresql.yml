@@ -64,3 +64,44 @@ jobs:
           path: ejemplos/django-postgresql/reporte-pruebas.xml
           if-no-files-found: ignore
           retention-days: 7
+
+  devcontainer:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+      - name: Validar y arrancar Compose
+        run: |
+          docker compose -f .devcontainer/compose.yaml config --quiet
+          docker compose -f .devcontainer/compose.yaml up -d --wait
+      - name: Preparar como usuario de desarrollo y comprobar reinicio
+        run: |
+          docker compose -f .devcontainer/compose.yaml exec -T --user vscode app bash /workspaces/desarrollo-de-sistemas/.devcontainer/preparar.sh
+          docker compose -f .devcontainer/compose.yaml restart
+          docker compose -f .devcontainer/compose.yaml exec -T --user vscode app bash /workspaces/desarrollo-de-sistemas/.devcontainer/preparar.sh
+      - name: Comprobar migraciones y suite dentro del contenedor
+        run: |
+          docker compose -f .devcontainer/compose.yaml exec -T --user vscode app python manage.py makemigrations --check --dry-run
+          docker compose -f .devcontainer/compose.yaml exec -T --user vscode app python -m pytest -q
+      - name: Comprobar host y CSRF de Codespaces
+        run: |
+          docker compose -f .devcontainer/compose.yaml exec -T --user vscode -e CODESPACES=true -e CODESPACE_NAME=pp4-prueba -e GITHUB_CODESPACES_PORT_FORWARDING_DOMAIN=app.github.dev app python -c 'from config.settings import ALLOWED_HOSTS, CSRF_TRUSTED_ORIGINS; assert "pp4-prueba-8000.app.github.dev" in ALLOWED_HOSTS; assert CSRF_TRUSTED_ORIGINS == ["https://pp4-prueba-8000.app.github.dev"]'
+      - name: Comprobar servidor HTTP
+        run: |
+          docker compose -f .devcontainer/compose.yaml exec -d --user vscode app python manage.py runserver 0.0.0.0:8000 --noreload
+          docker compose -f .devcontainer/compose.yaml exec -T app python - <<'PY'
+          import time
+          import urllib.request
+          for intento in range(30):
+              try:
+                  with urllib.request.urlopen("http://127.0.0.1:8000/entrar/", timeout=2) as response:
+                      assert response.status == 200
+                  break
+              except OSError:
+                  if intento == 29:
+                      raise
+                  time.sleep(1)
+          PY
+      - name: Eliminar entorno temporal
+        if: always()
+        run: docker compose -f .devcontainer/compose.yaml down --volumes

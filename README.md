@@ -15,6 +15,7 @@ Espacio académico de [YaskCode](https://github.com/YaskCode) para analizar, mod
 | [Programa](programa/README.md) | Programa original y procedencia de las fuentes |
 | [Unidades](unidades/README.md) | Apuntes, ejemplos y lecturas de los seis temas |
 | [Presentaciones](presentaciones/README.md) | Presentación original para explicar la asignatura y el proyecto |
+| [Entorno listo para abrir](docs/devcontainer.md) | Dev Containers local y Codespaces |
 | [Ejemplos ejecutables](ejemplos/README.md) | Mini proyecto Django/PostgreSQL y pruebas |
 | [Recursos](recursos/README.md) | Bibliografía del programa y documentación técnica |
 | [Entregables](proyecto-integrador/entregables/README.md) | Ruta única de trabajo práctico E1–E8 |

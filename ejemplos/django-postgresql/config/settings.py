@@ -6,6 +6,13 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = os.environ["PP4_SECRET_KEY"]
 DEBUG = os.environ.get("PP4_DEBUG", "0") == "1"
 ALLOWED_HOSTS = ["localhost", "127.0.0.1", "testserver"]
+# Solo el host concreto del puerto de este Codespace; sin comodines.
+if os.environ.get("CODESPACES") == "true":
+    codespace = os.environ["CODESPACE_NAME"]
+    domain = os.environ["GITHUB_CODESPACES_PORT_FORWARDING_DOMAIN"]
+    forwarded_host = f"{codespace}-8000.{domain}"
+    ALLOWED_HOSTS.append(forwarded_host)
+    CSRF_TRUSTED_ORIGINS = [f"https://{forwarded_host}"]
 INSTALLED_APPS = [
     "django.contrib.admin", "django.contrib.auth", "django.contrib.contenttypes",
     "django.contrib.sessions", "django.contrib.messages", "django.contrib.staticfiles",

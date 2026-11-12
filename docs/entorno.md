@@ -1,5 +1,7 @@
 # Preparación reproducible del entorno
 
+Para ejecutar el mini proyecto ya incluido, puedes usar el [dev container](devcontainer.md). La preparación manual que sigue corresponde al repositorio del equipo.
+
 Realizar estos pasos en el repositorio del equipo, en una carpeta de trabajo nueva. Esta guía prepara Django, PostgreSQL y pytest; no implementa los módulos del proyecto ni constituye otra entrega.
 
 Para ejecutar el mini proyecto ya preparado, seguir su [README](../ejemplos/django-postgresql/README.md); no repetir los comandos de creación de proyecto de esta guía.

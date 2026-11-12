@@ -1,5 +1,12 @@
 # Historial del ejemplo
 
+## Entorno de desarrollo reproducible
+
+- Dev container local y compatible con Codespaces, con PostgreSQL 16 aislado.
+- Preparación al crear y reiniciar: dependencias, espera de BD y migraciones.
+- Host y origen CSRF concretos del puerto 8000 en Codespaces.
+- Guía de estudio, pruebas, parada y eliminación del entorno.
+
 ## Versión docente inicial
 
 - Oferta sintética, autenticación y consulta de postulaciones propias.

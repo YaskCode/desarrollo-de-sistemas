@@ -1,0 +1,38 @@
+services:
+  app:
+    image: mcr.microsoft.com/devcontainers/python:1-3.12-bookworm
+    command: sleep infinity
+    working_dir: /workspaces/desarrollo-de-sistemas/ejemplos/django-postgresql
+    volumes:
+      - ..:/workspaces/desarrollo-de-sistemas:cached
+    environment:
+      PP4_DB_NAME: pp4_desarrollo
+      PP4_DB_USER: pp4_local
+      # Valores públicos exclusivos de este entorno desechable, no secretos reales.
+      PP4_DB_PASSWORD: pp4_solo_desarrollo
+      PP4_DB_HOST: db
+      PP4_DB_PORT: "5432"
+      PP4_SECRET_KEY: clave-publica-exclusiva-del-devcontainer-docente
+      PP4_DEBUG: "1"
+      CODESPACES: ${CODESPACES:-false}
+      CODESPACE_NAME: ${CODESPACE_NAME:-}
+      GITHUB_CODESPACES_PORT_FORWARDING_DOMAIN: ${GITHUB_CODESPACES_PORT_FORWARDING_DOMAIN:-}
+    depends_on:
+      db:
+        condition: service_healthy
+  db:
+    image: postgres:16
+    environment:
+      POSTGRES_DB: pp4_desarrollo
+      POSTGRES_USER: pp4_local
+      POSTGRES_PASSWORD: pp4_solo_desarrollo
+    volumes:
+      - postgres-data:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U pp4_local -d pp4_desarrollo"]
+      interval: 2s
+      timeout: 5s
+      retries: 30
+    # Sin ports: PostgreSQL solo se comunica dentro de la red de Compose.
+volumes:
+  postgres-data:

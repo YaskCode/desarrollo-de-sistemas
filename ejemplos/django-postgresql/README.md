@@ -24,6 +24,10 @@ No implementa aprobación académica, empresas, tutores, seguimiento, reportes d
 | [Pruebas del entorno](gestion/tests/test_entorno.py) | Las tres comprobaciones de la guía general |
 | [Historial](CHANGELOG.md) | Alcance de esta versión docente |
 
+## Abrir con Dev Containers o Codespaces
+
+La [guía de apertura y uso](../../docs/devcontainer.md) prepara este mini proyecto automáticamente con Python 3.12 y PostgreSQL 16. Permite estudiar, modificar y probar el código sin instalar PostgreSQL en el equipo anfitrión.
+
 ## Preparar el entorno
 
 Desde la raíz del repositorio académico, entrar en `ejemplos/django-postgresql`. Usar Python 3.12 y PostgreSQL 16. Crear y activar `.venv` como indica la [guía de entorno](../../docs/entorno.md), e instalar:
