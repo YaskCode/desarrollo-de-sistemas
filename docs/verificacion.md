@@ -1,11 +1,11 @@
 # Verificación de la implementación inicial
 
-Revisión del 12 de noviembre de 2026. Resultado: 235 enlaces relativos comprobados, sin destinos inexistentes después de simplificar la estructura; 21 URLs externas accesibles (HTTP 200 tras redirecciones). La ruta antigua de draw.io se sustituyó por su documentación actual antes de publicar.
+Revisión del 12 de noviembre de 2026. Resultado: 196 enlaces relativos comprobados, sin destinos inexistentes después de unificar el trabajo en E1–E8; 21 URLs externas accesibles (HTTP 200 tras redirecciones). La ruta antigua de draw.io se sustituyó por su documentación actual antes de publicar.
 
 ## Alcance de las comprobaciones
 
 - Navegación relativa de los archivos Markdown hacia archivos existentes.
-- Seis unidades, seis guías y cinco fichas de proyectos; ocho entregables.
+- Seis unidades y cinco fichas de proyectos; ocho entregables que integran las orientaciones prácticas.
 - Conservación binaria de ambos PDF mediante SHA-256.
 - Ausencia de archivos vacíos y código de aplicaciones estudiantiles.
 - Porcentajes 10 + 20 + 15 + 45 + 10 = 100; equivalencias originales señaladas como inconsistentes.

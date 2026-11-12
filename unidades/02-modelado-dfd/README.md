@@ -11,13 +11,9 @@
 
 Construir DFD y comprobar el balance entre niveles.
 
-## Actividad complementaria propuesta
+## Trabajo de la unidad y evaluación
 
-Modelar un flujo del proyecto; revisar entradas y salidas entre el contexto y su descomposición. La guía [Laboratorio 2](../../laboratorios/lab-02.md) desarrolla esta práctica sin añadir una evaluación obligatoria.
-
-## Relación con la evaluación
-
-Corresponde a **E2**, según el [índice de ocho entregables](../../proyecto-integrador/entregables/README.md). No se asignan porcentajes internos.
+Corresponde a **E2**, según el [índice de ocho entregables](../../proyecto-integrador/entregables/README.md). Las fichas reúnen alcance, guía de elaboración, evidencias y comprobación previa. No se asignan tareas paralelas ni porcentajes internos.
 
 ## Recursos
 

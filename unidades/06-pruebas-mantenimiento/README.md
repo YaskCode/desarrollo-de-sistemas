@@ -13,13 +13,9 @@
 
 Verificar comportamientos y registrar defectos, cambios y mantenimiento.
 
-## Actividad complementaria propuesta
+## Trabajo de la unidad y evaluación
 
-Probar un flujo y sus permisos con pytest y pytest-django; registrar un defecto y su corrección. La guía [Laboratorio 6](../../laboratorios/lab-06.md) desarrolla esta práctica sin añadir una evaluación obligatoria.
-
-## Relación con la evaluación
-
-Corresponde a **E7 y E8**, según el [índice de ocho entregables](../../proyecto-integrador/entregables/README.md). No se asignan porcentajes internos.
+Corresponde a **E7 y E8**, según el [índice de ocho entregables](../../proyecto-integrador/entregables/README.md). Las fichas reúnen alcance, guía de elaboración, evidencias y comprobación previa. No se asignan tareas paralelas ni porcentajes internos.
 
 ## Recursos
 

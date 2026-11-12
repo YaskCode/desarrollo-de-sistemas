@@ -13,10 +13,10 @@ Espacio académico de [YaskCode](https://github.com/YaskCode) para analizar, mod
 | Sección | Contenido disponible |
 |---|---|
 | [Programa](programa/README.md) | Programa original y procedencia de las fuentes |
-| [Unidades](unidades/README.md) | Los seis temas, objetivos orientativos y actividades propuestas |
+| [Unidades](unidades/README.md) | Los seis temas, objetivos orientativos y vínculo a los entregables |
 | [Presentaciones](presentaciones/README.md) | Presentación original para explicar la asignatura y el proyecto |
 | [Recursos](recursos/README.md) | Bibliografía del programa y documentación técnica |
-| [Laboratorios](laboratorios/README.md) | Seis guías complementarias propuestas |
+| [Entregables](proyecto-integrador/entregables/README.md) | Ruta única de trabajo práctico E1–E8 |
 | [Proyecto integrador](proyecto-integrador/proyectos-propuestos.md) | Cinco proyectos, ocho entregables y rúbrica cualitativa propuesta |
 | [Guía estudiantil](docs/README.md) | Entorno, trabajo por equipos y navegación |
 | [Evaluación](docs/evaluacion.md) | Sprints y porcentajes conservados |
@@ -36,7 +36,7 @@ Los puntos equivalentes de los originales presentan inconsistencias; véase [eva
 
 ## Alcance y estado
 
-Implementado: documentación inicial, índices, fichas y guías. Las actividades complementarias, objetivos orientativos y rúbricas propuestas requieren validación docente antes de su uso evaluativo. No hay calendario, equipos asignados ni aplicaciones implementadas en este repositorio.
+El trabajo práctico se organiza exclusivamente mediante los ocho entregables E1–E8. Cada ficha reúne su alcance, guía de elaboración, evidencias y comprobaciones, sin tareas paralelas. Los objetivos orientativos, detalles complementarios y rúbricas propuestas requieren validación docente antes de su uso evaluativo. No hay calendario, equipos asignados ni aplicaciones implementadas en este repositorio.
 
 El código y las evidencias de los equipos se mantienen en [YaskCode-laboratory](https://github.com/YaskCode-laboratory); consulta el [registro de equipos](proyecto-integrador/equipos.md). Aquí se centralizan materiales e instrucciones.
 

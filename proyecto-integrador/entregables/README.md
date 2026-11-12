@@ -1,6 +1,6 @@
 # Ocho entregables de la presentación
 
-El alcance de cada ficha transcribe la presentación; las evidencias y comprobaciones adicionales se identifican como propuestas. No se fijan fechas, formatos obligatorios ni pesos por entregable.
+Esta es la única ruta de trabajo práctico de la asignatura. Cada ficha reúne el alcance de la presentación, los insumos, la guía de elaboración, las evidencias y la revisión previa del mismo entregable. Las orientaciones amplían la explicación sin crear tareas ni evaluaciones adicionales. No se fijan fechas, formatos obligatorios ni pesos por entregable.
 
 | Entrega | Título | Tema | Sprint |
 |---|---|---|---|

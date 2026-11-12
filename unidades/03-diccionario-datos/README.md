@@ -10,13 +10,9 @@
 
 Documentar datos y describir procesos primitivos sin ambigüedades.
 
-## Actividad complementaria propuesta
+## Trabajo de la unidad y evaluación
 
-Definir cada flujo y almacén del DFD y especificar una regla con decisiones alternativas. La guía [Laboratorio 3](../../laboratorios/lab-03.md) desarrolla esta práctica sin añadir una evaluación obligatoria.
-
-## Relación con la evaluación
-
-Corresponde a **E3 y E4**, según el [índice de ocho entregables](../../proyecto-integrador/entregables/README.md). No se asignan porcentajes internos.
+Corresponde a **E3 y E4**, según el [índice de ocho entregables](../../proyecto-integrador/entregables/README.md). Las fichas reúnen alcance, guía de elaboración, evidencias y comprobación previa. No se asignan tareas paralelas ni porcentajes internos.
 
 ## Recursos
 

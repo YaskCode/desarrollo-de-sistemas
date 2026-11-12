@@ -11,13 +11,9 @@
 
 Diseñar entradas validadas y salidas relacionadas con necesidades de información.
 
-## Actividad complementaria propuesta
+## Trabajo de la unidad y evaluación
 
-Prototipar un formulario y un reporte en Figma; documentar errores, permisos y estados vacíos. La guía [Laboratorio 4](../../laboratorios/lab-04.md) desarrolla esta práctica sin añadir una evaluación obligatoria.
-
-## Relación con la evaluación
-
-Corresponde a **E5**, según el [índice de ocho entregables](../../proyecto-integrador/entregables/README.md). No se asignan porcentajes internos.
+Corresponde a **E5**, según el [índice de ocho entregables](../../proyecto-integrador/entregables/README.md). Las fichas reúnen alcance, guía de elaboración, evidencias y comprobación previa. No se asignan tareas paralelas ni porcentajes internos.
 
 ## Recursos
 
