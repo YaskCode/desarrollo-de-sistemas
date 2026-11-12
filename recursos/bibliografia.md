@@ -179,6 +179,23 @@ Pruebas unitarias, integración, sistema, aceptación, mantenimiento y documenta
 
 **Aplicación al proyecto:** Integrar la aplicación, ejecutar pruebas y registrar defectos en **E7**; documentar versiones, mantenimiento y manuales en **E8**.
 
+<a id="enfoques-ingenieria"></a>
+
+## Enfoques contemporáneos de ingeniería de software
+
+Lecturas transversales para las [prácticas y estrategias del proyecto](../docs/enfoques-ingenieria.md). Complementan el programa y las evidencias E1–E8, sin crear evaluaciones adicionales.
+
+| Enfoque | Referencia | Acceso y uso académico |
+|---|---|---|
+| SDD | [GitHub Spec Kit · Documentación oficial](https://github.github.com/spec-kit/) | Libre consulta. Ejemplo de desarrollo guiado por especificaciones; no requiere instalar Spec Kit ni usar agentes en el curso. |
+| DDD | [Martin Fowler · Ubiquitous Language](https://martinfowler.com/bliki/UbiquitousLanguage.html) | Artículo de libre consulta. Lenguaje compartido entre desarrolladores y actores del dominio. |
+| DDD | [Martin Fowler · Bounded Context](https://martinfowler.com/bliki/BoundedContext.html) | Artículo de libre consulta. Profundización sobre límites de significado; no obliga a adoptar microservicios o una arquitectura DDD completa. |
+| TDD | [Kent Beck · Test-Driven Development: By Example](https://www.oreilly.com/library/view/test-driven-development/0321146530/) | Libro comercial, ficha y acceso según suscripción. Prueba que falla, implementación mínima y refactorización. |
+| V&V | [ISTQB · Certified Tester Foundation Level](https://istqb.org/certifications/certified-tester-foundation-level-ctfl-v4-0/) | Página oficial y materiales de consulta. Fundamentos y terminología de pruebas; no se exige certificación. |
+| VDD: lectura crítica | [Verification-Driven Delivery Methodology](https://vdd-methodology.org/) | Propuesta particular emergente, no estándar del curso. Utiliza «Delivery», mientras PP4 define VDD operativamente como «Verification-Driven Development». No se equiparan sus alcances. |
+
+La verificación y la validación fundamentan las revisiones de todos los entregables. Los recursos opcionales amplían la lectura y no incorporan nuevos frameworks obligatorios.
+
 ## Uso de versiones y acceso
 
 Las rutas `current`, `stable` y `latest` pueden cambiar con el tiempo. Los enlaces Django 5.2 se conservan como referencia explícita de la selección docente: cada equipo debe consultar la versión que corresponda a su instalación. No se impone una versión nueva por añadir bibliografía.

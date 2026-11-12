@@ -31,6 +31,10 @@ Para consultas sobre un entregable, indicar su número y la sección que origina
 
 Explicar las decisiones del equipo, citar las fuentes utilizadas y distinguir los aportes propios del material de terceros. Utilizar datos sintéticos para las demostraciones y pruebas.
 
+## Estrategias de desarrollo
+
+Aplicar [SDD, DDD, TDD y verificación y validación](enfoques-ingenieria.md) según la unidad y el entregable. Conservar las evidencias de revisión y actualizar los documentos cuando cambien las reglas del proyecto.
+
 ## Entorno y documentación
 
 Consultar las [herramientas](../recursos/herramientas.md) y la [preparación del entorno](entorno.md). Registrar las versiones compatibles utilizadas y conservar las dependencias del proyecto.

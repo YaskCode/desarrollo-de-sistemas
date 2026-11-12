@@ -61,6 +61,10 @@ flowchart TD
 
 Este fragmento ilustra registro y consulta; no representa el contexto completo ni sustituye la descomposición a nivel 2 exigida en E2. Mantener los mismos identificadores y flujos en el diccionario de E3.
 
+## Prácticas de ingeniería aplicadas
+
+**SDD y verificación.** Comprobar en E2 el balance y la coherencia de los DFD. Que Mermaid renderice el código no demuestra que el modelo sea correcto. Consultar las [estrategias transversales](../../docs/enfoques-ingenieria.md). Estas prácticas forman parte de los entregables existentes.
+
 ## Recursos
 
 - [Programa principal y presentación](../../programa/README.md).

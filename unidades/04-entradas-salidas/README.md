@@ -15,6 +15,10 @@ Diseñar entradas validadas y salidas relacionadas con necesidades de informaci�
 
 Corresponde a **E5**, según el [índice de ocho entregables](../../proyecto-integrador/entregables/README.md). Las fichas reúnen alcance, guía de elaboración, evidencias y comprobación previa. No se asignan tareas paralelas ni porcentajes internos.
 
+## Prácticas de ingeniería aplicadas
+
+**SDD y validación.** Contrastar el prototipo Figma de E5 con requisitos y necesidades de los usuarios. Consultar las [estrategias transversales](../../docs/enfoques-ingenieria.md). Estas prácticas forman parte de los entregables existentes.
+
 ## Recursos
 
 - [Programa principal y presentación](../../programa/README.md).

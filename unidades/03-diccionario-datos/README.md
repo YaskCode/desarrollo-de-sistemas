@@ -14,6 +14,10 @@ Documentar datos y describir procesos primitivos sin ambigüedades.
 
 Corresponde a **E3 y E4**, según el [índice de ocho entregables](../../proyecto-integrador/entregables/README.md). Las fichas reúnen alcance, guía de elaboración, evidencias y comprobación previa. No se asignan tareas paralelas ni porcentajes internos.
 
+## Prácticas de ingeniería aplicadas
+
+**SDD y DDD.** Mantener coherencia entre el vocabulario del dominio, el diccionario E3 y las reglas y decisiones de E4. Consultar las [estrategias transversales](../../docs/enfoques-ingenieria.md). Estas prácticas forman parte de los entregables existentes.
+
 ## Recursos
 
 - [Programa principal y presentación](../../programa/README.md).

@@ -21,6 +21,10 @@ Distinguir tipos de SI y justificar el alcance de una solución institucional.
 
 Corresponde a **E1**, según el [índice de ocho entregables](../../proyecto-integrador/entregables/README.md). Las fichas reúnen alcance, guía de elaboración, evidencias y comprobación previa. No se asignan tareas paralelas ni porcentajes internos.
 
+## Prácticas de ingeniería aplicadas
+
+**SDD e introducción a DDD.** Precisar lenguaje del dominio, requisitos, reglas y criterios de aceptación de E1. Consultar las [estrategias transversales](../../docs/enfoques-ingenieria.md). Estas prácticas forman parte de los entregables existentes.
+
 ## Recursos
 
 - [Programa principal y presentación](../../programa/README.md).

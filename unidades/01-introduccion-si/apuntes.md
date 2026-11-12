@@ -63,6 +63,10 @@ Scrum y Kanban ayudan a organizar trabajo y aprendizaje; no sustituyen el análi
 
 Un tablero con columnas no equivale por sí solo a aplicar Scrum o Kanban. En E1, describir cómo se organiza el equipo, cómo se prioriza, cómo se revisan resultados y cómo se atienden cambios. Utilizar el término «Sprint» para una evaluación del curso no demuestra, por sí mismo, que el equipo aplique todo Scrum.
 
+## Enfoques de ingeniería aplicados
+
+SDD ayuda a mantener especificaciones verificables; DDD introduce un lenguaje coherente del dominio. TDD se aplica después a reglas implementables, mientras la verificación y la validación acompañan todas las evidencias. Su aplicación se explica en las [estrategias transversales](../../docs/enfoques-ingenieria.md).
+
 ## De los conceptos a E1
 
 La caracterización debe relacionar problema, justificación, objetivos, alcance, actores, requisitos y reglas de negocio. Una tecnología responde a una decisión de implementación; no reemplaza la formulación del problema. «Usar Django» no explica qué necesidad institucional se resuelve.

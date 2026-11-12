@@ -19,6 +19,7 @@ Espacio académico de [YaskCode](https://github.com/YaskCode) para analizar, mod
 | [Entregables](proyecto-integrador/entregables/README.md) | Ruta única de trabajo práctico E1–E8 |
 | [Proyecto integrador](proyecto-integrador/proyectos-propuestos.md) | Cinco proyectos, ocho entregables y criterios de revisión |
 | [Guía estudiantil](docs/README.md) | Entorno, trabajo por equipos y navegación |
+| [Estrategias de desarrollo](docs/enfoques-ingenieria.md) | Especificaciones, dominio, pruebas y verificación y validación |
 | [Evaluación](docs/evaluacion.md) | Sprints y porcentajes conservados |
 
 ## Ruta de evaluación

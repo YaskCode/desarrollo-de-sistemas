@@ -15,6 +15,10 @@ Transformar un modelo ER en un esquema relacional normalizado.
 
 Corresponde a **E6**, según el [índice de ocho entregables](../../proyecto-integrador/entregables/README.md). Las fichas reúnen alcance, guía de elaboración, evidencias y comprobación previa. No se asignan tareas paralelas ni porcentajes internos.
 
+## Prácticas de ingeniería aplicadas
+
+**DDD y verificación.** Comprobar que las relaciones, claves y restricciones de E6 representan las reglas del dominio. Consultar las [estrategias transversales](../../docs/enfoques-ingenieria.md). Estas prácticas forman parte de los entregables existentes.
+
 ## Recursos
 
 - [Programa principal y presentación](../../programa/README.md).

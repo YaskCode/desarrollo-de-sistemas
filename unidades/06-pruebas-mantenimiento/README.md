@@ -17,6 +17,10 @@ Verificar comportamientos y registrar defectos, cambios y mantenimiento.
 
 Corresponde a **E7 y E8**, según el [índice de ocho entregables](../../proyecto-integrador/entregables/README.md). Las fichas reúnen alcance, guía de elaboración, evidencias y comprobación previa. No se asignan tareas paralelas ni porcentajes internos.
 
+## Prácticas de ingeniería aplicadas
+
+**TDD, verificación y validación.** Aplicar el ciclo prueba–implementación–refactorización a reglas concretas en E7; mantener evidencias y documentación en E8. Integrar la suite en GitHub Actions al consolidar el proyecto. Consultar las [estrategias transversales](../../docs/enfoques-ingenieria.md). Estas prácticas forman parte de los entregables existentes.
+
 ## Recursos
 
 - [Programa principal y presentación](../../programa/README.md).
