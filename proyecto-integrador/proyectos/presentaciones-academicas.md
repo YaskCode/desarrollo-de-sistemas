@@ -1,4 +1,4 @@
-# Proyecto 7. Repositorio Digital de Presentaciones Académicas
+# Proyecto 5. Repositorio Digital de Presentaciones Académicas
 
 **Fuente:** [presentación original](../../presentaciones/presentacion-programa-proyecto-si.pdf), p. 7. Objetivo formulado a partir de la descripción de la fuente.
 

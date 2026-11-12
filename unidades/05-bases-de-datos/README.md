@@ -21,6 +21,5 @@ Corresponde a **E6**, según el [índice de ocho entregables](../../proyecto-int
 - [Presentación general del programa y del proyecto](../../presentaciones/README.md).
 - [Bibliografía y recursos del tema 5](../../recursos/bibliografia.md#tema-5).
 - [Herramientas del entorno docente](../../recursos/herramientas.md).
-- [Observaciones sobre fuentes y herramientas](../../docs/observaciones.md).
 
 [Unidades](../README.md) · [Inicio](../../README.md)

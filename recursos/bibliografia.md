@@ -9,7 +9,7 @@ Los libros son comerciales: una ficha editorial no da acceso gratuito al texto c
 | Tema | Lectura central | Recurso práctico | Entregable |
 |---|---|---|---|
 | [I](#tema-1) | Kendall, caps. 1–3; cap. 6 para agilidad | Guía Scrum | E1 |
-| [II](#tema-2) | Kendall, cap. 7 | IBM DFD y diagrams.net | E2 |
+| [II](#tema-2) | Kendall, cap. 7 | Mermaid, con IBM DFD como apoyo | E2 |
 | [III](#tema-3) | Kendall, caps. 8–9 | Diccionario DFD y documentación de restricciones | E3–E4 |
 | [IV](#tema-4) | Kendall, caps. 11–12 y 14 | Figma y W3C | E5 |
 | [V](#tema-5) | Elmasri y Navathe; Kendall, cap. 13 | PostgreSQL y Mermaid ER | E6 |
@@ -67,21 +67,30 @@ Sistemas, clasificación, ciclo de vida y metodologías ágiles.
 
 ## Tema 2. Modelado de Sistemas mediante DFD
 
-Modelado estructurado, procesos, flujos, almacenes, entidades externas y descomposición.
+Modelado estructurado, procesos, flujos, almacenes, entidades externas y niveles de descomposición.
 
 ### Bibliografía académica
 
-**Básica:** Kendall y Kendall, capítulo 7. **Complementaria:** Senn, para el enfoque estructurado.
+**Básica:** Kendall y Kendall, capítulo 7: *Using Data Flow Diagrams*. **Complementaria:** Senn, *Análisis y Diseño de Sistemas de Información*, para el enfoque estructurado.
 
-### Recursos de apoyo
+### Recursos y herramientas
 
-| Recurso | Tipo de acceso | Aplicación académica |
-|---|---|---|
-| [IBM · Data Flow Diagram](https://www.ibm.com/think/topics/data-flow-diagram) | Recurso de libre consulta | Componentes, conexiones y niveles de DFD. |
-| [Lucidchart · Data Flow Diagram](https://www.lucidchart.com/pages/data-flow-diagram) | Tutorial de libre consulta; herramienta con planes comerciales | Ejemplos de diagramas y descomposición. |
-| [draw.io / diagrams.net](https://www.drawio.com/) | Herramienta de acceso gratuito | Dibujo de los DFD con una convención de notación explícita. |
+| Recurso | Aplicación académica |
+|---|---|
+| [Mermaid · Flowcharts](https://mermaid.js.org/syntax/flowchart.html) | Herramienta principal: construcción textual de DFD mediante convenciones explícitas de procesos, entidades, almacenes y flujos. |
+| [Mermaid Live Editor](https://mermaid.live/) | Escritura, previsualización y corrección del código. |
+| [GitHub · Creating diagrams](https://docs.github.com/en/get-started/writing-on-github/working-with-advanced-formatting/creating-diagrams) | Bloques Mermaid dentro de archivos Markdown. |
+| [IBM · Data Flow Diagram](https://www.ibm.com/think/topics/data-flow-diagram) | Referencia conceptual sobre componentes y reglas de conexión. |
+| [diagrams.net](https://www.drawio.com/) | Herramienta gráfica complementaria para comparar métodos de modelado. |
+| [Lucidchart · Data Flow Diagram](https://www.lucidchart.com/pages/data-flow-diagram) | Recurso adicional con ejemplos visuales; herramienta con planes comerciales. |
 
-**Aplicación al proyecto:** Construir contexto y niveles requeridos; comprobar balance de flujos. **E2.** Las fuentes externas pueden usar otra convención para «nivel 0»: aplicar la acordada en el curso. Mermaid se reserva para diagramas compatibles; un flowchart no acredita por sí solo una notación DFD.
+### Aplicación al proyecto integrador · E2
+
+Desarrollar contexto, nivel 1 y nivel 2, con al menos un proceso descompuesto a nivel 2; comprobar balance y consistencia de flujos. Los diagramas se documentan en Markdown con bloques Mermaid, conservando código y representación visual en GitHub.
+
+Ejemplo simplificado del sistema de gestión de pasantías. Mermaid utiliza diagramas de flujo generales; la notación DFD deberá definirse explícitamente mediante convenciones de formas, nombres y conexiones.
+
+La [Unidad II](../unidades/02-modelado-dfd/README.md) reúne la imagen aportada, las convenciones y un ejemplo de código corregido. Mermaid queda estandarizado como herramienta principal para los DFD, coherente con Markdown, Git y GitHub.
 
 <a id="tema-3"></a>
 

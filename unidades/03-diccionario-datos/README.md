@@ -20,6 +20,5 @@ Corresponde a **E3 y E4**, según el [índice de ocho entregables](../../proyect
 - [Presentación general del programa y del proyecto](../../presentaciones/README.md).
 - [Bibliografía y recursos del tema 3](../../recursos/bibliografia.md#tema-3).
 - [Herramientas del entorno docente](../../recursos/herramientas.md).
-- [Observaciones sobre fuentes y herramientas](../../docs/observaciones.md).
 
 [Unidades](../README.md) · [Inicio](../../README.md)

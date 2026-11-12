@@ -1,6 +1,6 @@
 # Verificación de la implementación inicial
 
-Revisión del 12 de noviembre de 2026. Resultado: 204 enlaces relativos comprobados, incluidos los seis destinos bibliográficos por tema; 21 URLs externas accesibles (HTTP 200 tras redirecciones). La ruta antigua de draw.io se sustituyó por su documentación actual antes de publicar.
+Revisión del 12 de noviembre de 2026. Resultado: 182 enlaces relativos comprobados, incluida la imagen y los destinos bibliográficos; 21 URLs externas accesibles (HTTP 200 tras redirecciones). La ruta antigua de draw.io se sustituyó por su documentación actual antes de publicar.
 
 ## Alcance de las comprobaciones
 
@@ -8,12 +8,12 @@ Revisión del 12 de noviembre de 2026. Resultado: 204 enlaces relativos comproba
 - Seis unidades y cinco fichas de proyectos; ocho entregables que integran las orientaciones prácticas.
 - Conservación binaria de ambos PDF mediante SHA-256.
 - Ausencia de archivos vacíos y código de aplicaciones estudiantiles.
-- Porcentajes 10 + 20 + 15 + 45 + 10 = 100; equivalencias originales señaladas como inconsistentes.
+- Porcentajes 15 + 15 + 15 + 45 + 10 = 100; equivalencias 3 + 3 + 3 + 9 + 2 = 20.
 - Diferenciación de contenidos de fuente y propuestas complementarias.
 
 No se ejecutaron las prácticas con estudiantes, un servidor PostgreSQL, una aplicación Django ni GitHub Actions de los equipos. Las versiones de herramientas, reglas institucionales y rúbricas deben validarse antes de impartir las prácticas.
 
-[Observaciones](observaciones.md) · [Inicio](../README.md)
+[Inicio](../README.md)
 
 ## URLs externas comprobadas
 
@@ -46,3 +46,7 @@ No se ejecutaron las prácticas con estudiantes, un servidor PostgreSQL, una apl
 Se revisó el índice de capítulos de la 11.ª edición inglesa de Kendall en Pearson y la atribución de Modern Systems Analysis and Design en el catálogo oficial. Se mantienen las nueve referencias originales con observaciones editoriales. No se trasladan los capítulos a una supuesta traducción española sin verificar.
 
 Se comprobaron las 27 URLs bibliográficas con resultado HTTP 200 tras redirecciones y reintento de dos respuestas temporales 503 de PostgreSQL. Los capítulos y recursos son orientaciones de lectura para E1–E8, sin tareas adicionales.
+
+## Tema II y fuentes vigentes
+
+La imagen aportada se conserva byte por byte; el ejemplo Mermaid introduce un proceso de consulta entre D1 y Coordinación. El resto de secciones de bibliografía se conservó sin cambios (salvo la selección prioritaria del Tema II). Se comprobaron los hashes de los PDF vigentes. Se retiró docs/observaciones.md y sus enlaces.

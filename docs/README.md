@@ -1,6 +1,6 @@
 # Guía para estudiantes
 
-1. Leer los [documentos fuente](../programa/README.md) y las [observaciones documentales](observaciones.md).
+1. Leer los [documentos fuente](../programa/README.md).
 2. Recorrer las [seis unidades](../unidades/README.md) y la [evaluación](evaluacion.md).
 3. Consultar la ficha del [proyecto integrador](../proyecto-integrador/proyectos-propuestos.md) asignado por la docente.
 4. Seguir la única ruta de trabajo práctico y relacionar cada requisito con sus [entregables](../proyecto-integrador/entregables/README.md).

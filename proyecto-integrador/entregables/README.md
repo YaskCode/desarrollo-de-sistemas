@@ -13,6 +13,6 @@ Esta es la única ruta de trabajo práctico de la asignatura. Cada ficha reúne 
 | [E7](e07.md) | Implementación y pruebas | VI | 3 |
 | [E8](e08.md) | Mantenimiento y documentación | VI | 3 |
 
-E1–E2: 10 %; E3–E5: 20 %; E6–E8: 15 %. El proyecto final representa 45 % y la asistencia/participación 10 %. No se divide el porcentaje de un sprint entre sus entregables.
+E1–E2: 15 %; E3–E5: 15 %; E6–E8: 15 %. El proyecto final representa 45 % y la asistencia/participación 10 %. No se divide el porcentaje de un sprint entre sus entregables.
 
 [Evaluación y advertencia sobre puntos](../../docs/evaluacion.md) · [Rúbricas propuestas](../rubricas/README.md) · [Proyectos](../proyectos-propuestos.md)

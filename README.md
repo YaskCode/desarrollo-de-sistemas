@@ -20,19 +20,18 @@ Espacio académico de [YaskCode](https://github.com/YaskCode) para analizar, mod
 | [Proyecto integrador](proyecto-integrador/proyectos-propuestos.md) | Cinco proyectos, ocho entregables y rúbrica cualitativa propuesta |
 | [Guía estudiantil](docs/README.md) | Entorno, trabajo por equipos y navegación |
 | [Evaluación](docs/evaluacion.md) | Sprints y porcentajes conservados |
-| [Observaciones documentales](docs/observaciones.md) | Inconsistencias y decisiones pendientes |
 
 ## Ruta de evaluación
 
 | Componente | Temas | Entregables | Valor |
 |---|---|---|---:|
-| Sprint 1: Análisis y modelado | I–II | E1–E2 | 10 % |
-| Sprint 2: Diseño del sistema | III–IV | E3–E5 | 20 % |
+| Sprint 1: Análisis y modelado | I–II | E1–E2 | 15 % |
+| Sprint 2: Diseño del sistema | III–IV | E3–E5 | 15 % |
 | Sprint 3: Implementación y pruebas | V–VI | E6–E8 | 15 % |
 | Proyecto final | Todos | Integración y demostración funcional | 45 % |
 | Asistencia y participación | Todos | Según registro docente | 10 % |
 
-Los puntos equivalentes de los originales presentan inconsistencias; véase [evaluación](docs/evaluacion.md). No se han cambiado los porcentajes ni definido pesos internos.
+La evaluación suma 100 %, equivalente a 20 puntos.
 
 ## Alcance y estado
 

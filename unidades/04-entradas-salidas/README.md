@@ -5,7 +5,7 @@
 - Principios de diseño de interfaces de usuario (UI).
 - Formatos de entrada: formularios y validaciones.
 - Formatos de salida: reportes, gráficos y exportación de datos.
-- Prototipado: Figma, Balsamiq, papel y lápiz.
+- Prototipado: Figma, papel y lápiz.
 
 ## Objetivo de aprendizaje propuesto
 
@@ -21,6 +21,5 @@ Corresponde a **E5**, según el [índice de ocho entregables](../../proyecto-int
 - [Presentación general del programa y del proyecto](../../presentaciones/README.md).
 - [Bibliografía y recursos del tema 4](../../recursos/bibliografia.md#tema-4).
 - [Herramientas del entorno docente](../../recursos/herramientas.md).
-- [Observaciones sobre fuentes y herramientas](../../docs/observaciones.md).
 
 [Unidades](../README.md) · [Inicio](../../README.md)

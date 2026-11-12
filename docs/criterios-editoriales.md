@@ -9,8 +9,10 @@ Se adoptan identidad textual, navegación Markdown, tablas de evaluación y sepa
 
 Los PDF son las fuentes académicas: programa para contenidos y evaluación; presentación para proyectos, entregables y entorno. Objetivos operativos, orientación bibliográfica, orientaciones de elaboración de entregables y criterios cualitativos se etiquetan como propuestas. No se incorporan escudos o logotipos nuevos.
 
-[Observaciones documentales](observaciones.md) · [Inicio](../README.md)
+[Inicio](../README.md)
 
 La presentación general se mantiene una sola vez en presentaciones/, sin subcarpetas por unidad. Las seis unidades utilizan nombres descriptivos y el índice de proyectos se denomina proyectos-propuestos.md, conforme al árbol solicitado.
 
 Por decisión docente, la sección independiente de laboratorios se elimina y sus orientaciones útiles se integran en E1–E8. Las unidades enlazan los entregables, sin proponer actividades paralelas.
+
+Los PDF vigentes son las revisiones aportadas por la docente: Programa de SI(5).pdf y Presentación Programa y Proyecto_SI(4).pdf. Mermaid se adopta como herramienta principal para los DFD mediante convenciones explícitas.

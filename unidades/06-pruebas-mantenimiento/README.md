@@ -4,7 +4,7 @@
 
 - Tipos de pruebas: unitarias, integración, sistema y aceptación.
 - Técnicas: caja negra y caja blanca.
-- Herramientas de testing: JUnit, Selenium y Postman.
+- Herramientas de testing: pytest y pytest-django.
 - Mantenimiento: correctivo, adaptativo y perfectivo.
 - Gestión de cambios y versionamiento.
 - Documentación técnica y para usuarios finales.
@@ -23,6 +23,5 @@ Corresponde a **E7 y E8**, según el [índice de ocho entregables](../../proyect
 - [Presentación general del programa y del proyecto](../../presentaciones/README.md).
 - [Bibliografía y recursos del tema 6](../../recursos/bibliografia.md#tema-6).
 - [Herramientas del entorno docente](../../recursos/herramientas.md).
-- [Observaciones sobre fuentes y herramientas](../../docs/observaciones.md).
 
 [Unidades](../README.md) · [Inicio](../../README.md)

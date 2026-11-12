@@ -1,4 +1,4 @@
-# Proyecto 5. Gestión de Trabajos Especiales de Grado
+# Proyecto 4. Gestión de Trabajos Especiales de Grado
 
 **Fuente:** [presentación original](../../presentaciones/presentacion-programa-proyecto-si.pdf), p. 6. Objetivo formulado a partir de la descripción de la fuente.
 
