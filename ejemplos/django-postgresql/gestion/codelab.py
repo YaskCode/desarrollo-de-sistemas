@@ -42,14 +42,16 @@ def identity():
     """Incluye archivos sin commit. No devuelve variables ni credenciales."""
     digest = hashlib.sha256()
     repo = ROOT.parent.parent
+    excluded = {".venv", "__pycache__", ".pytest_cache", ".git", "reporte-codelab"}
     for directory in (ROOT, repo / ".devcontainer", repo / "codelabs"):
-        for file in sorted(directory.rglob("*")):
-            if not file.is_file() or any(x in file.parts for x in (".venv", "__pycache__", ".pytest_cache", ".git", "reporte-codelab")):
-                continue
-            if file.suffix not in (".py", ".html", ".js", ".css", ".txt", ".ini", ".json", ".yaml", ".sh", ".md"):
-                continue
-            digest.update(str(file.relative_to(repo)).encode())
-            digest.update(file.read_bytes())
+        for folder, directories, files in directory.walk():
+            directories[:] = sorted(name for name in directories if name not in excluded)
+            for name in sorted(files):
+                file = folder / name
+                if file.suffix not in (".py", ".html", ".js", ".css", ".txt", ".ini", ".json", ".yaml", ".sh", ".md"):
+                    continue
+                digest.update(str(file.relative_to(repo)).encode())
+                digest.update(file.read_bytes())
     # Solo la huella se publica; nunca el contenido del entorno.
     digest.update(json.dumps(sorted(os.environ.items())).encode())
     digest.update(sys.version.encode())
@@ -57,16 +59,26 @@ def identity():
 
 
 def environment():
+    # Límites de conexión y consultas solo durante esta comprobación.
+    original = connection.settings_dict.get("OPTIONS", {}).copy()
     connection.close()
-    if connection.vendor != "postgresql":
-        raise RuntimeError("Se requiere PostgreSQL")
-    with connection.cursor() as cursor:
-        cursor.execute("SELECT version(), current_database(), pg_postmaster_start_time()")
-        version, database, started = cursor.fetchone()
-    executor = MigrationExecutor(connection)
-    if executor.migration_plan(executor.loader.graph.leaf_nodes()):
-        raise RuntimeError("Migraciones pendientes")
-    return hashlib.sha256((version + database + str(started) + str(sorted(executor.loader.applied_migrations))).encode()).hexdigest()
+    connection.settings_dict["OPTIONS"] = {
+        **original, "connect_timeout": 5,
+        "options": original.get("options", "") + " -c statement_timeout=5000",
+    }
+    try:
+        if connection.vendor != "postgresql":
+            raise RuntimeError("Se requiere PostgreSQL")
+        with connection.cursor() as cursor:
+            cursor.execute("SELECT version(), current_database(), pg_postmaster_start_time()")
+            version, database, started = cursor.fetchone()
+        executor = MigrationExecutor(connection)
+        if executor.migration_plan(executor.loader.graph.leaf_nodes()):
+            raise RuntimeError("Migraciones pendientes")
+        return hashlib.sha256((version + database + str(started) + str(sorted(executor.loader.applied_migrations))).encode()).hexdigest()
+    finally:
+        connection.close()
+        connection.settings_dict["OPTIONS"] = original
 
 
 def run_tests(selectors):
@@ -93,7 +105,8 @@ def run_tests(selectors):
         for suite in suites:
             for key in counts:
                 counts[key] += int(suite.get(key, 0))
-        if counts["errors"] or counts["skipped"] or not counts["tests"]:
+        expected = 19 if selectors == CRITERIA["suite"] else len(selectors)
+        if counts["errors"] or counts["skipped"] or counts["tests"] != expected:
             state = "error_entorno"
         else:
             state = "aprobado" if code == 0 and not counts["failures"] else "fallo"

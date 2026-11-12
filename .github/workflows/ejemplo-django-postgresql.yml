@@ -11,7 +11,7 @@ concurrency:
   cancel-in-progress: true
 jobs:
   pruebas:
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-24.04
     timeout-minutes: 10
     defaults:
       run:
@@ -82,7 +82,7 @@ jobs:
           retention-days: 7
 
   devcontainer:
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-24.04
     timeout-minutes: 15
     steps:
       - uses: actions/checkout@v4

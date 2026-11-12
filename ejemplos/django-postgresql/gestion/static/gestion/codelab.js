@@ -32,7 +32,7 @@ async function refresh(){
 }
 boxes.forEach(box=>{
   box.querySelector(".check").addEventListener("click",async()=>{
-    if(busy)return;busy=true;boxes.forEach(b=>b.querySelector(".check").disabled=true);
+    if(busy)return;busy=true;boxes.forEach(b=>{b.querySelector(".check").disabled=true;if(b.proof)render(b,{...b.proof,estado:"anterior"});});
     box.dataset.state="comprobando";box.querySelector(".result").textContent="Comprobando: ejecutando el criterio real…";
     box.proof=null;box.querySelector(".download").disabled=true;box.querySelector(".evidence").textContent="Comprobación en curso.";
     try{
