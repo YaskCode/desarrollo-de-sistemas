@@ -10,15 +10,15 @@ Cinco opciones institucionales documentadas en la presentación, pp. 3–7, nume
 | 4 | [Gestión de Trabajos Especiales de Grado](proyectos/trabajos-de-grado.md) | Gestionar propuestas de temas, solicitudes, tutores y seguimiento académico. |
 | 5 | [Repositorio Digital de Presentaciones Académicas](proyectos/presentaciones-academicas.md) | Compartir, clasificar, consultar y preservar presentaciones docentes y científicas. |
 
-Los módulos mínimos proceden de la presentación. El detalle de permisos, reglas, estados alternativos y criterios de aceptación se acuerda mediante E1; no se presume una integración institucional real ni autorización de tratamiento de datos.
+Los módulos mínimos proceden de la presentación. Precisar los permisos, las reglas, los estados alternativos y los criterios de aceptación del sistema mediante E1. Trabajar con datos sintéticos.
 
 ## Entregas y equipos
 
 - [Ocho entregables](entregables/README.md).
 - [Evaluación por sprint](../docs/evaluacion.md).
-- [Rúbricas cualitativas propuestas](rubricas/README.md).
+- [Criterios de revisión y retroalimentación](rubricas/README.md).
 - [Registro de repositorios de equipos](equipos.md).
 
-Proyecto final: aplicación integrada, GitHub Actions, documentación y demostración funcional según la tabla tecnológica de la presentación (p. 20). No se añade un servicio de despliegue obligatorio ni nuevos entregables numerados.
+Proyecto final: aplicación integrada, GitHub Actions, documentación y demostración funcional según la tabla tecnológica de la presentación (p. 20).
 
 [Inicio](../README.md)

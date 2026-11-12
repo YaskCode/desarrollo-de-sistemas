@@ -7,7 +7,7 @@
 - Formatos de salida: reportes, gráficos y exportación de datos.
 - Prototipado: Figma, papel y lápiz.
 
-## Objetivo de aprendizaje propuesto
+## Objetivo de aprendizaje
 
 Diseñar entradas validadas y salidas relacionadas con necesidades de información.
 

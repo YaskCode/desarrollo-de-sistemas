@@ -29,8 +29,8 @@ Propuesta → Revisión → Publicación → Solicitud → Aprobación → Tutor
 
 Aplicar los [ocho entregables comunes](../entregables/README.md): caracterizar el dominio, modelar flujos, definir datos y procesos, diseñar interfaces y BD, implementar, probar y documentar mantenimiento.
 
-**Propuesta complementaria:** recorrer el flujo con datos sintéticos y contrastar la autorización de cada actor; documentar excepciones para validación docente. No se agregan módulos obligatorios.
+Para elaborar los entregables, recorrer el flujo con datos sintéticos, comprobar los permisos de cada actor y documentar las excepciones y reglas del sistema.
 
-**Equipo y código:** aún sin asignación registrada. Los enlaces concretos se incorporarán al [registro de equipos](../equipos.md) cuando existan en YaskCode-laboratory.
+**Equipo y código:** consultar el [registro de equipos](../equipos.md) y trabajar en el repositorio asignado en YaskCode-laboratory.
 
 [Índice de proyectos](../proyectos-propuestos.md) · [Inicio](../../README.md)

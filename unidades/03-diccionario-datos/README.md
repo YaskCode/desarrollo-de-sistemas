@@ -6,7 +6,7 @@
 - Metadatos y estándares de documentación.
 - Especificación de procesos: lenguaje estructurado y tablas de decisión.
 
-## Objetivo de aprendizaje propuesto
+## Objetivo de aprendizaje
 
 Documentar datos y describir procesos primitivos sin ambigüedades.
 

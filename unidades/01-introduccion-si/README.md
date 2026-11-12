@@ -7,7 +7,7 @@
 - Ciclo de vida de los SI.
 - Comparación con metodologías ágiles: Scrum y Kanban.
 
-## Objetivo de aprendizaje propuesto
+## Objetivo de aprendizaje
 
 Distinguir tipos de SI y justificar el alcance de una solución institucional.
 

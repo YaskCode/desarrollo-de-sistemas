@@ -9,7 +9,7 @@
 - Gestión de cambios y versionamiento.
 - Documentación técnica y para usuarios finales.
 
-## Objetivo de aprendizaje propuesto
+## Objetivo de aprendizaje
 
 Verificar comportamientos y registrar defectos, cambios y mantenimiento.
 

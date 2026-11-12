@@ -21,17 +21,17 @@ Los libros son comerciales: una ficha editorial no da acceso gratuito al texto c
 
 Kendall, K. E., y Kendall, J. E. *Systems Analysis and Design* (11.ª ed.). Pearson. Publicación: 2023; copyright: 2024. ISBN de la edición impresa estadounidense: **9780137947805**; eText: **9780137947850**. [Ficha oficial e índice de capítulos de Pearson](https://www.pearson.com/en-us/subject-catalog/p/systems-analysis-and-design/P200000009877). **Libro comercial en inglés.**
 
-La numeración de capítulos de este índice se comprobó en esa edición inglesa. El programa cita el título en español; no se presume que exista una traducción con el mismo año, ISBN o paginación. Comprobar la edición disponible antes de asignar páginas.
+La numeración de capítulos de este índice se comprobó en esa edición inglesa. El programa cita el título en español; no se presume que exista una traducción con el mismo año, ISBN o paginación. La numeración de páginas debe corresponder a la edición consultada.
 
 ### Texto complementario de análisis y diseño
 
 Valacich, J. S., y George, J. F. *Modern Systems Analysis and Design* (8.ª ed., Global Edition). Pearson. ISBN impreso: **9781292154145**. [Catálogo oficial de Pearson con edición, autores e ISBN](https://www.pearson.com/content/dam/one-dot-com/one-dot-com/apac/japan/catalog/2019-hed-catalog.pdf). **Libro comercial; el catálogo es de libre consulta.**
 
-El catálogo identifica esta edición con Valacich y George. La atribución «Hoffer, Ramesh y Topi» del programa no corresponde a esa ficha y requiere corrección docente en el documento fuente; se conserva literalmente más abajo para mantener la trazabilidad. No se utiliza la portada de otra obra como identificación bibliográfica.
+El catálogo identifica esta edición con Valacich y George. La atribución «Hoffer, Ramesh y Topi» del programa no corresponde a esa ficha y difiere de la ficha del catálogo editorial; el listado del programa se reproduce más abajo para identificar la diferencia. No se utiliza la portada de otra obra como identificación bibliográfica.
 
 ### Obras originales del programa
 
-Se conservan las nueve referencias originales. Salvo las verificaciones señaladas arriba, sus títulos, ediciones, autorías, años e ISBN quedan sujetos a revisión editorial; no se completan por suposición. La conservación de una referencia no confirma que todos sus datos sean correctos.
+Se conservan las nueve referencias originales. Salvo las verificaciones señaladas arriba, el listado conserva los datos del programa tal como aparecen en su bibliografía. La conservación de una referencia no confirma que todos sus datos sean correctos.
 
 1. Kendall, K. & Kendall, J. Análisis y Diseño de Sistemas. 11ª ed. Pearson.
 2. Whitten, J.; Bentley, L. & Dittman, K. Análisis, Diseño e Implementación de Sistemas. 7ª ed. McGraw-Hill.
@@ -100,7 +100,7 @@ Diccionarios, metadatos, reglas de negocio y decisiones estructuradas.
 
 ### Bibliografía académica
 
-**Básica:** Kendall y Kendall, capítulos 8–9. **Complementaria:** Whitten, Bentley y Dittman; validar la referencia editorial del programa.
+**Básica:** Kendall y Kendall, capítulos 8–9. **Complementaria:** Whitten, Bentley y Dittman; consultar el listado bibliográfico del programa.
 
 ### Recursos de apoyo
 
@@ -183,6 +183,6 @@ Pruebas unitarias, integración, sistema, aceptación, mantenimiento y documenta
 
 Las rutas `current`, `stable` y `latest` pueden cambiar con el tiempo. Los enlaces Django 5.2 se conservan como referencia explícita de la selección docente: cada equipo debe consultar la versión que corresponda a su instalación. No se impone una versión nueva por añadir bibliografía.
 
-Fecha de revisión de enlaces: 12 de noviembre de 2026. El [registro de verificación](../docs/verificacion.md) diferencia las páginas accesibles de las que bloquean la comprobación automática. Ningún recurso opcional incorpora nuevos frameworks obligatorios o entregables.
+Fecha de revisión de enlaces: 12 de noviembre de 2026. Ningún recurso opcional incorpora nuevos frameworks obligatorios o entregables.
 
 [Herramientas](herramientas.md) · [Recursos](README.md) · [Inicio](../README.md)

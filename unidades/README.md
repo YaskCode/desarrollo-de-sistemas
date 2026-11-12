@@ -1,6 +1,6 @@
 # Unidades académicas
 
-Contenido basado en el programa principal. Los objetivos son una propuesta de operacionalización docente, no objetivos transcritos del PDF.
+Los seis temas del programa se relacionan con los objetivos de aprendizaje, los recursos de estudio y los entregables del proyecto integrador.
 
 1. [Introducción a los Sistemas de Información](01-introduccion-si/README.md)
 2. [Modelado de Sistemas mediante Diagramas de Flujo de Datos (DFD)](02-modelado-dfd/README.md)

@@ -7,7 +7,7 @@
 - Transformación de modelos ER a tablas SQL.
 - Introducción a bases de datos NoSQL.
 
-## Objetivo de aprendizaje propuesto
+## Objetivo de aprendizaje
 
 Transformar un modelo ER en un esquema relacional normalizado.
 

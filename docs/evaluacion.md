@@ -13,4 +13,4 @@ Transcripción del programa, p. 2, y tabla visual de la presentación, p. 21.
 
 La distribución 15/15/15/45/10 suma 100 % y corresponde a 3/3/3/9/2 puntos.
 
-[Ocho entregables](../proyecto-integrador/entregables/README.md) · [Rúbrica propuesta](../proyecto-integrador/rubricas/README.md) · [Inicio](../README.md)
+[Ocho entregables](../proyecto-integrador/entregables/README.md) · [Criterios de revisión](../proyecto-integrador/rubricas/README.md) · [Inicio](../README.md)

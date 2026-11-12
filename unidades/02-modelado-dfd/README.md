@@ -7,7 +7,7 @@
 - Niveles: contexto, nivel 1 y nivel 2.
 - Ejercicios prácticos de modelado de procesos empresariales.
 
-## Objetivo de aprendizaje propuesto
+## Objetivo de aprendizaje
 
 Construir DFD y comprobar el balance entre niveles.
 
@@ -32,13 +32,13 @@ Los flujos conectan entidades con procesos, procesos entre sí o procesos con al
 
 ## Ejemplo simplificado · Gestión de Pasantías
 
-### Imagen aportada
+### Representación inicial del ejemplo
 
-![Imagen aportada: Estudiante envía Solicitud a Registrar postulación, que devuelve Confirmación y registra datos en D1; la imagen también muestra un enlace directo de D1 a Coordinación.](ejemplo-dfd-pasantias.png)
+![Representación inicial: Estudiante envía Solicitud a Registrar postulación, que devuelve Confirmación y registra datos en D1; la imagen también muestra un enlace directo de D1 a Coordinación.](ejemplo-dfd-pasantias.png)
 
 Ejemplo simplificado del sistema de gestión de pasantías. Mermaid utiliza diagramas de flujo generales; la notación DFD deberá definirse explícitamente mediante convenciones de formas, nombres y conexiones.
 
-La imagen se conserva como fue aportada. Para aplicar las reglas DFD, el código siguiente representa la consulta de Coordinación mediante un proceso, en lugar de conectarla directamente al almacén.
+En la representación inicial hay una conexión directa entre D1 y Coordinación. El código siguiente muestra la versión que cumple las reglas DFD: la consulta pasa por un proceso.
 
 ### Código Mermaid y representación
 

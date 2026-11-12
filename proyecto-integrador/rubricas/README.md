@@ -1,6 +1,6 @@
-# Rúbricas cualitativas propuestas
+# Criterios de revisión y retroalimentación
 
-**Estado: propuesta complementaria pendiente de aprobación docente.** Las fuentes no incluyen una rúbrica con pesos. Esta matriz sirve para retroalimentación inicial; no calcula calificaciones ni añade criterios obligatorios. Los criterios concretos por entrega se encuentran en las [fichas E1–E8](../entregables/README.md).
+Esta matriz describe la calidad de las evidencias para orientar la revisión y la retroalimentación. Se aplica junto con los criterios específicos de las [fichas E1–E8](../entregables/README.md). Los porcentajes del curso se encuentran en el [plan de evaluación](../../docs/evaluacion.md).
 
 | Evidencia | Consistente | En revisión | Insuficiente |
 |---|---|---|---|
@@ -14,6 +14,6 @@
 | E8: mantenimiento | Versiones, cambios y manuales corresponden al sistema | Documentación parcialmente desactualizada | No hay trazabilidad de cambios o uso |
 | Proyecto final | Integración, demostración, CI y documentación concordantes | Integración con limitaciones declaradas | No se logra demostrar el flujo integrado |
 
-No se define rúbrica de asistencia ni umbrales de participación: el mecanismo de registro y su aplicación quedan a decisión docente. Tampoco se asignan puntos por nivel ni pesos internos de sprint.
+Los niveles de esta matriz son descriptivos; no representan puntajes ni modifican las ponderaciones del plan de evaluación.
 
 [Evaluación](../../docs/evaluacion.md) · [Proyectos](../proyectos-propuestos.md)
