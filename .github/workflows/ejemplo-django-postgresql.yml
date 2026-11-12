@@ -74,6 +74,11 @@ jobs:
         run: |
           docker compose -f .devcontainer/compose.yaml config --quiet
           docker compose -f .devcontainer/compose.yaml up -d --wait
+      # Compose directo no ajusta el UID como lo hace Dev Containers en Linux.
+      - name: Alinear permisos del montaje y comprobar edición
+        run: |
+          docker compose -f .devcontainer/compose.yaml exec -T --user root app chown -R vscode:vscode /workspaces/desarrollo-de-sistemas
+          docker compose -f .devcontainer/compose.yaml exec -T --user vscode app sh -c 'touch .comprobacion-escritura && rm .comprobacion-escritura'
       - name: Preparar como usuario de desarrollo y comprobar reinicio
         run: |
           docker compose -f .devcontainer/compose.yaml exec -T --user vscode app bash /workspaces/desarrollo-de-sistemas/.devcontainer/preparar.sh
