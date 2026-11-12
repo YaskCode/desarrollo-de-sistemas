@@ -18,7 +18,7 @@
 | 5 · Presentar | Identificar el commit y los enlaces de las evidencias | Una versión estable que otra persona puede consultar y reproducir |
 | 6 · Mejorar | Atender la retroalimentación y mantener trazabilidad | Cambios identificables sin perder la versión presentada |
 
-La Unidad I incluye [apuntes](../unidades/01-introduccion-si/apuntes.md) y un [ejemplo de caracterización](../unidades/01-introduccion-si/ejemplo-caracterizacion.md); la Unidad II presenta un [ejemplo Mermaid de DFD](../unidades/02-modelado-dfd/README.md). Para los demás temas, consultar los recursos de su unidad y la guía del entregable. Cada ejemplo sirve para comprender decisiones, no para sustituir el análisis del proyecto propio.
+Cada unidad reúne apuntes, un ejemplo de estudio y sus lecturas. Comenzar por el [índice de unidades](../unidades/README.md). Cada ejemplo sirve para comprender decisiones, no para sustituir el análisis del proyecto propio.
 
 ## Preparar y presentar una entrega
 
@@ -50,7 +50,7 @@ Aplicar [SDD, DDD, TDD y verificación y validación](enfoques-ingenieria.md) se
 
 ## Entorno y documentación
 
-Consultar las [herramientas](../recursos/herramientas.md) y la [preparación del entorno](entorno.md). Registrar las versiones compatibles utilizadas y conservar las dependencias del proyecto.
+Consultar las [herramientas](../recursos/herramientas.md), la [preparación del entorno](entorno.md) y la [integración continua](integracion-continua.md). Registrar las versiones compatibles utilizadas y conservar las dependencias del proyecto.
 
 Mantener Markdown con títulos jerárquicos, enlaces descriptivos y texto alternativo en imágenes. Usar enlaces relativos entre documentos del repositorio del equipo.
 

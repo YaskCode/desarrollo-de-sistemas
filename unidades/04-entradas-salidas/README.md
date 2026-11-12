@@ -11,6 +11,12 @@
 
 Diseñar entradas validadas y salidas relacionadas con necesidades de información.
 
+## Material de estudio
+
+1. [Apuntes del tema](apuntes.md).
+2. [Ejemplo aplicado al proyecto de estudio](ejemplo-entradas-salidas.md).
+3. [Lecturas del Tema 4](../../recursos/bibliografia.md#tema-4).
+
 ## Trabajo de la unidad y evaluación
 
 Corresponde a **E5**, según el [índice de ocho entregables](../../proyecto-integrador/entregables/README.md). Las fichas reúnen alcance, guía de elaboración, evidencias y comprobación previa. No se asignan tareas paralelas ni porcentajes internos.

@@ -13,7 +13,7 @@ Espacio académico de [YaskCode](https://github.com/YaskCode) para analizar, mod
 | Sección | Contenido disponible |
 |---|---|
 | [Programa](programa/README.md) | Programa original y procedencia de las fuentes |
-| [Unidades](unidades/README.md) | Los seis temas, objetivos de aprendizaje y vínculo a los entregables |
+| [Unidades](unidades/README.md) | Apuntes, ejemplos y lecturas de los seis temas |
 | [Presentaciones](presentaciones/README.md) | Presentación original para explicar la asignatura y el proyecto |
 | [Recursos](recursos/README.md) | Bibliografía del programa y documentación técnica |
 | [Entregables](proyecto-integrador/entregables/README.md) | Ruta única de trabajo práctico E1–E8 |
