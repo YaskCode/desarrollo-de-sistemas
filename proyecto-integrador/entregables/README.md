@@ -1,6 +1,6 @@
 # Ocho entregables de la presentación
 
-El alcance de cada ficha transcribe la presentación; las evidencias y comprobaciones adicionales se identifican como propuestas. No se fijan fechas, formatos obligatorios ni pesos por entregable.
+Esta es la única ruta de trabajo práctico de la asignatura. Cada ficha reúne el alcance de la presentación, los insumos, la guía de elaboración, las evidencias y la revisión previa del mismo entregable. Consultar la [guía para estudiantes](../../docs/README.md) para identificar la versión y presentar las evidencias de cada entrega.
 
 | Entrega | Título | Tema | Sprint |
 |---|---|---|---|
@@ -13,6 +13,6 @@ El alcance de cada ficha transcribe la presentación; las evidencias y comprobac
 | [E7](e07.md) | Implementación y pruebas | VI | 3 |
 | [E8](e08.md) | Mantenimiento y documentación | VI | 3 |
 
-E1–E2: 10 %; E3–E5: 20 %; E6–E8: 15 %. El proyecto final representa 45 % y la asistencia/participación 10 %. No se divide el porcentaje de un sprint entre sus entregables.
+E1–E2: 15 %; E3–E5: 15 %; E6–E8: 15 %. El proyecto final representa 45 % y la asistencia/participación 10 %. No se divide el porcentaje de un sprint entre sus entregables.
 
-[Evaluación y advertencia sobre puntos](../../docs/evaluacion.md) · [Rúbricas propuestas](../rubricas/README.md) · [Proyectos](../proyectos-propuestos.md)
+[Plan de evaluación](../../docs/evaluacion.md) · [Criterios de revisión](../rubricas/README.md) · [Proyectos](../proyectos-propuestos.md)

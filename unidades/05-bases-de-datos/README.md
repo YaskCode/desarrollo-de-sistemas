@@ -7,24 +7,19 @@
 - Transformación de modelos ER a tablas SQL.
 - Introducción a bases de datos NoSQL.
 
-## Objetivo de aprendizaje propuesto
+## Objetivo de aprendizaje
 
 Transformar un modelo ER en un esquema relacional normalizado.
 
-## Actividad complementaria propuesta
+## Trabajo de la unidad y evaluación
 
-Derivar tablas, claves y restricciones; ejecutar SQL en PostgreSQL con datos sintéticos. La guía [Laboratorio 5](../../laboratorios/lab-05.md) desarrolla esta práctica sin añadir una evaluación obligatoria.
-
-## Relación con la evaluación
-
-Corresponde a **E6**, según el [índice de ocho entregables](../../proyecto-integrador/entregables/README.md). No se asignan porcentajes internos.
+Corresponde a **E6**, según el [índice de ocho entregables](../../proyecto-integrador/entregables/README.md). Las fichas reúnen alcance, guía de elaboración, evidencias y comprobación previa. No se asignan tareas paralelas ni porcentajes internos.
 
 ## Recursos
 
 - [Programa principal y presentación](../../programa/README.md).
 - [Presentación general del programa y del proyecto](../../presentaciones/README.md).
-- [Bibliografía y su correspondencia temática](../../recursos/bibliografia.md).
+- [Bibliografía y recursos del tema 5](../../recursos/bibliografia.md#tema-5).
 - [Herramientas del entorno docente](../../recursos/herramientas.md).
-- [Observaciones sobre fuentes y herramientas](../../docs/observaciones.md).
 
 [Unidades](../README.md) · [Inicio](../../README.md)

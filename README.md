@@ -13,31 +13,28 @@ Espacio académico de [YaskCode](https://github.com/YaskCode) para analizar, mod
 | Sección | Contenido disponible |
 |---|---|
 | [Programa](programa/README.md) | Programa original y procedencia de las fuentes |
-| [Unidades](unidades/README.md) | Los seis temas, objetivos orientativos y actividades propuestas |
+| [Unidades](unidades/README.md) | Los seis temas, objetivos de aprendizaje y vínculo a los entregables |
 | [Presentaciones](presentaciones/README.md) | Presentación original para explicar la asignatura y el proyecto |
 | [Recursos](recursos/README.md) | Bibliografía del programa y documentación técnica |
-| [Laboratorios](laboratorios/README.md) | Seis guías complementarias propuestas |
-| [Proyecto integrador](proyecto-integrador/proyectos-propuestos.md) | Cinco proyectos, ocho entregables y rúbrica cualitativa propuesta |
+| [Entregables](proyecto-integrador/entregables/README.md) | Ruta única de trabajo práctico E1–E8 |
+| [Proyecto integrador](proyecto-integrador/proyectos-propuestos.md) | Cinco proyectos, ocho entregables y criterios de revisión |
 | [Guía estudiantil](docs/README.md) | Entorno, trabajo por equipos y navegación |
 | [Evaluación](docs/evaluacion.md) | Sprints y porcentajes conservados |
-| [Observaciones documentales](docs/observaciones.md) | Inconsistencias y decisiones pendientes |
 
 ## Ruta de evaluación
 
 | Componente | Temas | Entregables | Valor |
 |---|---|---|---:|
-| Sprint 1: Análisis y modelado | I–II | E1–E2 | 10 % |
-| Sprint 2: Diseño del sistema | III–IV | E3–E5 | 20 % |
+| Sprint 1: Análisis y modelado | I–II | E1–E2 | 15 % |
+| Sprint 2: Diseño del sistema | III–IV | E3–E5 | 15 % |
 | Sprint 3: Implementación y pruebas | V–VI | E6–E8 | 15 % |
 | Proyecto final | Todos | Integración y demostración funcional | 45 % |
 | Asistencia y participación | Todos | Según registro docente | 10 % |
 
-Los puntos equivalentes de los originales presentan inconsistencias; véase [evaluación](docs/evaluacion.md). No se han cambiado los porcentajes ni definido pesos internos.
+La evaluación suma 100 %, equivalente a 20 puntos.
 
-## Alcance y estado
+## Cómo trabajar en la asignatura
 
-Implementado: documentación inicial, índices, fichas y guías. Las actividades complementarias, objetivos orientativos y rúbricas propuestas requieren validación docente antes de su uso evaluativo. No hay calendario, equipos asignados ni aplicaciones implementadas en este repositorio.
+Comenzar por la [guía para estudiantes](docs/README.md), estudiar la unidad correspondiente y desarrollar su entrega dentro del proyecto del equipo. La ruta práctica comprende E1–E8 y culmina en la integración y demostración del proyecto final.
 
-El código y las evidencias de los equipos se mantienen en [YaskCode-laboratory](https://github.com/YaskCode-laboratory); consulta el [registro de equipos](proyecto-integrador/equipos.md). Aquí se centralizan materiales e instrucciones.
-
-Los PDF originales se conservan sin modificaciones. No se añade una licencia general que atribuya permisos sobre obras de terceros; la licencia de los nuevos materiales queda pendiente de definición docente.
+El código, las pruebas y las evidencias se mantienen en los repositorios de [YaskCode-laboratory](https://github.com/YaskCode-laboratory). Este repositorio reúne el programa, los recursos y las instrucciones de la asignatura.

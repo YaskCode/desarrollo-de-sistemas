@@ -1,9 +1,9 @@
-# Registro de equipos y repositorios
+# Equipos y repositorios
 
-Organización de implementación: [YaskCode-laboratory](https://github.com/YaskCode-laboratory).
+Los proyectos se desarrollan en [YaskCode-laboratory](https://github.com/YaskCode-laboratory). Consultar con la docente la asignación de equipo, proyecto y repositorio.
 
-No hay equipos ni repositorios concretos informados para PP4 en las fuentes. No se publican enlaces supuestos.
+El repositorio de cada equipo identifica a sus integrantes y su proyecto. Allí se mantienen el código, las pruebas, los scripts SQL, las evidencias E1–E8 y los manuales de la aplicación.
 
-Para registrar un equipo, incorporar después de la asignación docente: identificación, integrantes autorizados, número de proyecto original, URL real del repositorio y vínculo a las evidencias de cada entrega. El código, las pruebas, SQL y los manuales de la aplicación permanecen en el repositorio del equipo; este índice solo los enlaza.
+Para presentar una entrega, seguir la [guía para estudiantes](../docs/README.md).
 
 [Proyectos](proyectos-propuestos.md) · [Inicio](../README.md)

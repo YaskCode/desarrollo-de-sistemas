@@ -1,4 +1,4 @@
-# Entorno docente · guía complementaria propuesta
+# Preparación del entorno de desarrollo
 
 Prerrequisitos: Python, PostgreSQL y Git instalados; VS Code, pgAdmin y acceso a GitHub. Registrar las versiones en el README del equipo. Las operaciones se realizan en el repositorio del equipo, no en este repositorio académico.
 
@@ -30,6 +30,6 @@ python manage.py runserver
 
 Resultado esperado: comprobaciones sin errores, migraciones aplicadas y página inicial accesible en el servidor local. Si PostgreSQL rechaza la conexión, comprobar servicio, puerto, usuario y permisos; no cambiar silenciosamente a otra BD.
 
-Configurar `pytest.ini` con `DJANGO_SETTINGS_MODULE = config.settings` dentro de `[pytest]`. Añadir pruebas en el equipo y ejecutar `python -m pytest`. La salida «no tests ran» no acredita una suite aprobada. Incorporar GitHub Actions cuando exista una suite: instalar dependencias, provisionar PostgreSQL de prueba, aplicar migraciones y ejecutar pytest. Esta automatización está prevista para los proyectos; no existe aún una aplicación docente aquí.
+Configurar `pytest.ini` con `DJANGO_SETTINGS_MODULE = config.settings` dentro de `[pytest]`. Añadir pruebas en el equipo y ejecutar `python -m pytest`. La salida «no tests ran» no acredita una suite aprobada. Incorporar GitHub Actions cuando exista una suite: instalar dependencias, provisionar PostgreSQL de prueba, aplicar migraciones y ejecutar pytest. Ejecutar estas comprobaciones en el repositorio del equipo.
 
 [Herramientas](../recursos/herramientas.md) · [Guía estudiantil](README.md)
