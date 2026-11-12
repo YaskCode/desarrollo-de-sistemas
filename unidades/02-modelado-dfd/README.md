@@ -26,7 +26,7 @@ Mermaid utiliza diagramas de flujo generales; la notación DFD deberá definirse
 | Entidad externa | Rectángulo `E["Estudiante"]` | Actor o unidad externa al sistema |
 | Proceso | Círculo `P(("1.0 Registrar postulación"))` | Identificador y verbo más objeto |
 | Almacén | Cilindro `D[("D1: Postulaciones")]` | Identificador y conjunto de datos; convención visual del curso |
-| Flujo de datos | Flecha etiquetada `-->|Solicitud|` | Sustantivo que identifica los datos transferidos |
+| Flujo de datos | Flecha etiquetada `-->\|Solicitud\|` | Sustantivo que identifica los datos transferidos |
 
 Los flujos conectan entidades con procesos, procesos entre sí o procesos con almacenes. La lectura o escritura de un almacén siempre pasa por un proceso. No se usan flechas de secuencia como sustituto de datos; se comprueba el balance entre el contexto y las descomposiciones. Estas formas constituyen una adaptación docente explícita, no una notación DFD nativa de Mermaid.
 
