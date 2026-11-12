@@ -9,7 +9,7 @@ function showStep(focus=false){
   document.querySelectorAll("nav a").forEach(a=>{if(a.hash==="#"+active.id)a.setAttribute("aria-current","step");else a.removeAttribute("aria-current");});
   if(focus) active.focus();
 }
-showStep();window.addEventListener("hashchange",()=>showStep(true));
+showStep();window.addEventListener("hashchange",()=>{if(location.hash==="#contenido")document.querySelector("#contenido").focus();else showStep(true);});
 function render(box,result){
   const state = result?.estado || "pendiente";
   box.dataset.state=state;
