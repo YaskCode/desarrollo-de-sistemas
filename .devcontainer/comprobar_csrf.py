@@ -14,9 +14,9 @@ from django.middleware.csrf import CsrfViewMiddleware, get_token
 from django.test import RequestFactory, override_settings
 
 factory = RequestFactory()
-middleware = CsrfViewMiddleware(lambda request: None)
 
 def comprobar(origin, token_valido):
+    middleware = CsrfViewMiddleware(lambda request: None)
     request = factory.post(
         "/entrar/", HTTP_HOST="pp4-prueba-8000.app.github.dev",
         HTTP_ORIGIN=origin,
