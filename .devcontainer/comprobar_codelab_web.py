@@ -57,6 +57,7 @@ try:
         box = page.locator('[data-criterion=registro]')
         box.locator('.check').click()
         expect(box.locator('.result')).to_have_text('Aprobado', timeout=100000)
+        box.locator('summary').click()
         data = json.loads(box.locator('.evidence').inner_text())
         assert data['evidencia']['tests'] == 2
         (out/'registro.json').write_text(json.dumps(data,indent=2))
