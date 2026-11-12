@@ -12,12 +12,12 @@ Espacio académico de [YaskCode](https://github.com/YaskCode) para analizar, mod
 
 | Sección | Contenido disponible |
 |---|---|
-| [Programa](programa/README.md) | Dos PDF originales y procedencia |
+| [Programa](programa/README.md) | Programa original y procedencia de las fuentes |
 | [Unidades](unidades/README.md) | Los seis temas, objetivos orientativos y actividades propuestas |
-| [Presentaciones](presentaciones/README.md) | Índice por unidad del PDF docente |
+| [Presentaciones](presentaciones/README.md) | Presentación original para explicar la asignatura y el proyecto |
 | [Recursos](recursos/README.md) | Bibliografía del programa y documentación técnica |
 | [Laboratorios](laboratorios/README.md) | Seis guías complementarias propuestas |
-| [Proyecto integrador](proyecto-integrador/README.md) | Cinco proyectos, ocho entregables y rúbrica cualitativa propuesta |
+| [Proyecto integrador](proyecto-integrador/proyectos-propuestos.md) | Cinco proyectos, ocho entregables y rúbrica cualitativa propuesta |
 | [Guía estudiantil](docs/README.md) | Entorno, trabajo por equipos y navegación |
 | [Evaluación](docs/evaluacion.md) | Sprints y porcentajes conservados |
 | [Observaciones documentales](docs/observaciones.md) | Inconsistencias y decisiones pendientes |

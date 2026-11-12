@@ -10,3 +10,5 @@ Se adoptan identidad textual, navegación Markdown, tablas de evaluación y sepa
 Los PDF son las fuentes académicas: programa para contenidos y evaluación; presentación para proyectos, entregables y entorno. Objetivos operativos, orientación bibliográfica, guías y criterios cualitativos se etiquetan como propuestas. No se incorporan escudos o logotipos nuevos.
 
 [Observaciones documentales](observaciones.md) · [Inicio](../README.md)
+
+La presentación general se mantiene una sola vez en presentaciones/, sin subcarpetas por unidad. Las seis unidades utilizan nombres descriptivos y el índice de proyectos se denomina proyectos-propuestos.md, conforme al árbol solicitado.

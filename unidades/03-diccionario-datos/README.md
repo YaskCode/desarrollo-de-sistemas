@@ -21,7 +21,7 @@ Corresponde a **E3 y E4**, según el [índice de ocho entregables](../../proyect
 ## Recursos
 
 - [Programa principal y presentación](../../programa/README.md).
-- [Presentaciones de la unidad](../../presentaciones/unidad-03/README.md).
+- [Presentación general del programa y del proyecto](../../presentaciones/README.md).
 - [Bibliografía y su correspondencia temática](../../recursos/bibliografia.md).
 - [Herramientas del entorno docente](../../recursos/herramientas.md).
 - [Observaciones sobre fuentes y herramientas](../../docs/observaciones.md).

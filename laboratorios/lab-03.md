@@ -1,6 +1,6 @@
 # L3. Diccionario y decisiones
 
-**Propuesta complementaria** · [Unidad 3](../unidades/unidad-03/README.md) · Apoya E3 y E4.
+**Propuesta complementaria** · [Unidad 3](../unidades/03-diccionario-datos/README.md) · Apoya E3 y E4.
 
 ## Requisitos
 

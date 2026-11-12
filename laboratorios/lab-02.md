@@ -1,6 +1,6 @@
 # L2. DFD y balance
 
-**Propuesta complementaria** · [Unidad 2](../unidades/unidad-02/README.md) · Apoya E2.
+**Propuesta complementaria** · [Unidad 2](../unidades/02-modelado-dfd/README.md) · Apoya E2.
 
 ## Requisitos
 

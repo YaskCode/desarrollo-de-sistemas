@@ -1,6 +1,6 @@
 # Observaciones documentales y decisiones pendientes
 
-Fuentes: [programa](../programa/programa-si.pdf), pp. 1–2; [presentación](../programa/presentacion-programa-proyecto-si.pdf), pp. 1–23. No se modificaron los originales.
+Fuentes: [programa](../programa/programa-asignatura.pdf), pp. 1–2; [presentación](../presentaciones/presentacion-programa-proyecto-si.pdf), pp. 1–23. No se modificaron los originales.
 
 | Hallazgo | Tratamiento inicial | Decisión pendiente |
 |---|---|---|

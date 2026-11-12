@@ -16,4 +16,4 @@
 
 No se define rúbrica de asistencia ni umbrales de participación: el mecanismo de registro y su aplicación quedan a decisión docente. Tampoco se asignan puntos por nivel ni pesos internos de sprint.
 
-[Evaluación](../../docs/evaluacion.md) · [Proyectos](../README.md)
+[Evaluación](../../docs/evaluacion.md) · [Proyectos](../proyectos-propuestos.md)

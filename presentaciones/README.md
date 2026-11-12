@@ -1,12 +1,9 @@
-# Presentaciones
+# Presentación del programa y del proyecto
 
-Se conserva una única presentación original; los índices siguientes permiten ubicar cada tema sin duplicar el archivo.
+[Consultar la presentación docente original](presentacion-programa-proyecto-si.pdf).
 
-- [Unidad 1: Introducción a los Sistemas de Información](unidad-01/README.md)
-- [Unidad 2: Modelado de Sistemas mediante Diagramas de Flujo de Datos (DFD)](unidad-02/README.md)
-- [Unidad 3: Diccionario de Datos y Especificación de Procesos](unidad-03/README.md)
-- [Unidad 4: Diseño de Entradas y Salidas](unidad-04/README.md)
-- [Unidad 5: Diseño de Bases de Datos para Sistemas de Información](unidad-05/README.md)
-- [Unidad 6: Pruebas y Mantenimiento de Sistemas](unidad-06/README.md)
+Este PDF se utiliza para explicar a los estudiantes el programa, los proyectos institucionales, los ocho entregables y las tecnologías. Se conserva íntegro, sin duplicarlo por unidad.
 
-[Programa y PDF completo](../programa/README.md) · [Inicio](../README.md)
+Los contenidos académicos se organizan únicamente en [unidades](../unidades/README.md). No se han publicado todavía presentaciones de clase independientes para cada tema; se incorporarán aquí cuando estén disponibles.
+
+[Programa de la asignatura](../programa/README.md) · [Inicio](../README.md)

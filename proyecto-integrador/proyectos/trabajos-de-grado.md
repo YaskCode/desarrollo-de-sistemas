@@ -1,6 +1,6 @@
 # Proyecto 5. Gestión de Trabajos Especiales de Grado
 
-**Fuente:** [presentación original](../../programa/presentacion-programa-proyecto-si.pdf), p. 6. Objetivo formulado a partir de la descripción de la fuente.
+**Fuente:** [presentación original](../../presentaciones/presentacion-programa-proyecto-si.pdf), p. 6. Objetivo formulado a partir de la descripción de la fuente.
 
 ## Objetivo
 
@@ -33,4 +33,4 @@ Aplicar los [ocho entregables comunes](../entregables/README.md): caracterizar e
 
 **Equipo y código:** aún sin asignación registrada. Los enlaces concretos se incorporarán al [registro de equipos](../equipos.md) cuando existan en YaskCode-laboratory.
 
-[Índice de proyectos](../README.md) · [Inicio](../../README.md)
+[Índice de proyectos](../proyectos-propuestos.md) · [Inicio](../../README.md)

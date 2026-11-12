@@ -1,6 +1,6 @@
 # Verificación de la implementación inicial
 
-Revisión del 12 de noviembre de 2026. Resultado: 257 enlaces relativos comprobados, sin destinos inexistentes; 21 URLs externas accesibles (HTTP 200 tras redirecciones). La ruta antigua de draw.io se sustituyó por su documentación actual antes de publicar.
+Revisión del 12 de noviembre de 2026. Resultado: 235 enlaces relativos comprobados, sin destinos inexistentes después de simplificar la estructura; 21 URLs externas accesibles (HTTP 200 tras redirecciones). La ruta antigua de draw.io se sustituyó por su documentación actual antes de publicar.
 
 ## Alcance de las comprobaciones
 

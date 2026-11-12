@@ -1,6 +1,6 @@
 # L5. Modelo relacional y SQL
 
-**Propuesta complementaria** · [Unidad 5](../unidades/unidad-05/README.md) · Apoya E6.
+**Propuesta complementaria** · [Unidad 5](../unidades/05-bases-de-datos/README.md) · Apoya E6.
 
 ## Requisitos
 

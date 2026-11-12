@@ -15,4 +15,4 @@ El alcance de cada ficha transcribe la presentación; las evidencias y comprobac
 
 E1–E2: 10 %; E3–E5: 20 %; E6–E8: 15 %. El proyecto final representa 45 % y la asistencia/participación 10 %. No se divide el porcentaje de un sprint entre sus entregables.
 
-[Evaluación y advertencia sobre puntos](../../docs/evaluacion.md) · [Rúbricas propuestas](../rubricas/README.md) · [Proyectos](../README.md)
+[Evaluación y advertencia sobre puntos](../../docs/evaluacion.md) · [Rúbricas propuestas](../rubricas/README.md) · [Proyectos](../proyectos-propuestos.md)

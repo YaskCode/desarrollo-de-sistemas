@@ -1,6 +1,6 @@
 # L4. Entradas, salidas y prototipo
 
-**Propuesta complementaria** · [Unidad 4](../unidades/unidad-04/README.md) · Apoya E5.
+**Propuesta complementaria** · [Unidad 4](../unidades/04-entradas-salidas/README.md) · Apoya E5.
 
 ## Requisitos
 

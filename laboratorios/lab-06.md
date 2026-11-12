@@ -1,6 +1,6 @@
 # L6. Pruebas y mantenimiento
 
-**Propuesta complementaria** · [Unidad 6](../unidades/unidad-06/README.md) · Apoya E7 y E8.
+**Propuesta complementaria** · [Unidad 6](../unidades/06-pruebas-mantenimiento/README.md) · Apoya E7 y E8.
 
 ## Requisitos
 

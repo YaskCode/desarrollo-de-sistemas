@@ -1,6 +1,6 @@
 # L1. Caracterización y trazabilidad
 
-**Propuesta complementaria** · [Unidad 1](../unidades/unidad-01/README.md) · Apoya E1.
+**Propuesta complementaria** · [Unidad 1](../unidades/01-introduccion-si/README.md) · Apoya E1.
 
 ## Requisitos
 
