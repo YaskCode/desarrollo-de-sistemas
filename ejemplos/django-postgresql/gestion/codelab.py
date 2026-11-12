@@ -44,7 +44,7 @@ def identity():
     repo = ROOT.parent.parent
     for directory in (ROOT, repo / ".devcontainer", repo / "codelabs"):
         for file in sorted(directory.rglob("*")):
-            if not file.is_file() or any(x in file.parts for x in (".venv", "__pycache__", ".pytest_cache", ".git")):
+            if not file.is_file() or any(x in file.parts for x in (".venv", "__pycache__", ".pytest_cache", ".git", "reporte-codelab")):
                 continue
             if file.suffix not in (".py", ".html", ".js", ".css", ".txt", ".ini", ".json", ".yaml", ".sh", ".md"):
                 continue
@@ -61,12 +61,12 @@ def environment():
     if connection.vendor != "postgresql":
         raise RuntimeError("Se requiere PostgreSQL")
     with connection.cursor() as cursor:
-        cursor.execute("SELECT version(), current_database()")
-        version, _ = cursor.fetchone()
+        cursor.execute("SELECT version(), current_database(), pg_postmaster_start_time()")
+        version, database, started = cursor.fetchone()
     executor = MigrationExecutor(connection)
     if executor.migration_plan(executor.loader.graph.leaf_nodes()):
         raise RuntimeError("Migraciones pendientes")
-    return hashlib.sha256((version + str(sorted(executor.loader.applied_migrations))).encode()).hexdigest()
+    return hashlib.sha256((version + database + str(started) + str(sorted(executor.loader.applied_migrations))).encode()).hexdigest()
 
 
 def run_tests(selectors):

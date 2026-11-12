@@ -31,7 +31,7 @@ def main():
         url = '/codelab/comprobar/entorno/'
         assert client.post(url).status_code == 403
         assert client.post(url, HTTP_X_CSRFTOKEN=token, HTTP_ORIGIN='https://ajeno.invalid').status_code == 403
-        assert Client().post(url).status_code == 403
+        assert Client(enforce_csrf_checks=True).post(url).status_code == 403
         anonymous = Client()
         assert anonymous.get('/codelab/').status_code == 302
         assert anonymous.post(url).status_code == 302
