@@ -77,3 +77,7 @@ Leer la especificación y localizar su regla en el modelo, la migración, la ope
 DDD se aplica al vocabulario; SDD a la especificación; TDD al ciclo de desarrollo; V&V al contraste de evidencias y necesidades. La restricción evita duplicados concurrentes del mismo par, pero la suite no ejecuta una prueba de carga o de concurrencia. La validación de oferta activa ocurre al procesar el formulario y no garantiza exclusión frente a una desactivación concurrente.
 
 [Enfoques](../../docs/enfoques-ingenieria.md) · [Unidad V](../../unidades/05-bases-de-datos/README.md) · [Unidad VI](../../unidades/06-pruebas-mantenimiento/README.md) · [Inicio](../../README.md)
+
+## Codelab autoguiado opcional
+
+[Postulaciones: de la regla a la prueba](../../codelabs/postulaciones-django/codelab.md). Reutiliza este ejemplo para E6–E8, con comprobaciones técnicas reales desde el mismo entorno privado. No añade entregas. Consulta su preparación antes de activar el validador.
