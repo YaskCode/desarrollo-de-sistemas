@@ -12,7 +12,7 @@ Fuentes: [programa](../programa/programa-asignatura.pdf), pp. 1–2; [presentaci
 | Tema IV menciona Balsamiq, papel y lápiz; entorno docente elige Figma | Se conserva el contenido y se usa Figma en la propuesta práctica | No se exige Balsamiq |
 | Encabezados: División de Programas Especiales frente a División de «ESTUDDIOS BASICOS SECTORIALES» | README usa Facultad y Licenciatura, comunes a ambas fuentes | Confirmar denominación administrativa y corregir solo con autorización |
 | E5 solo indica «Interfaz de entrada y salida» | Se conserva el alcance literal; evidencias detalladas se marcan propuestas | Validar detalle de E5 y rúbricas |
-| Bibliografía sin ISBN/año en varias entradas | Transcripción literal sin corregir ediciones ni inventar enlaces de libros | Verificar datos editoriales y disponibilidad legal |
+| Bibliografía con datos editoriales incompletos o atribución dudosa | Se conservan las nueve referencias; se añaden ficha e índice verificados de Kendall y atribución de la 8.ª edición de Modern Systems Analysis and Design a Valacich y George en el índice ampliado | Completar la revisión de las demás obras y actualizar la referencia del documento fuente con aprobación docente |
 
 Tampoco se definen fechas, duración de sprints, tamaño de equipos, distribución de puntos por criterio, licencia de nuevos materiales ni repositorios estudiantiles concretos: requieren decisión docente. El trabajo práctico se concentra en E1–E8. Sus orientaciones de elaboración, los objetivos operativos y las rúbricas son propuestas de apoyo; no añaden evaluaciones.
 

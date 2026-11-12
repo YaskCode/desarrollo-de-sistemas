@@ -1,6 +1,6 @@
 # Recursos académicos
 
-- [Bibliografía original e índice temático](bibliografia.md): nueve referencias; datos editoriales pendientes de validación.
+- [Bibliografía ampliada por tema](bibliografia.md): lecturas prioritarias, referencias originales, recursos de libre consulta y documentación técnica; datos no verificados señalados.
 - [Herramientas y documentación oficial](herramientas.md): entorno de la presentación.
 - [Guía de entorno local](../docs/entorno.md): propuesta complementaria reproducible.
 - [Programa y presentación originales](../programa/README.md).

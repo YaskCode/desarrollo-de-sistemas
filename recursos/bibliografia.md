@@ -1,6 +1,37 @@
-# Bibliografía del programa
+# Bibliografía y recursos por tema
 
-Transcripción de las nueve referencias del programa principal, p. 2. No se han corregido ediciones, títulos o autorías; faltan años e ISBN en las fuentes. El índice temático siguiente es una orientación complementaria. No se alojan copias de libros ni se inventan URLs de ediciones.
+Este índice reúne bibliografía básica, bibliografía complementaria, recursos de libre consulta y documentación técnica. Las lecturas apoyan exclusivamente los [entregables E1–E8](../proyecto-integrador/entregables/README.md); no generan nuevas actividades ni porcentajes de evaluación.
+
+Los libros son comerciales: una ficha editorial no da acceso gratuito al texto completo. «Libre consulta» describe el acceso al recurso enlazado, no una licencia abierta para redistribuirlo. No se incluyen copias no autorizadas ni imágenes de portadas con atribución dudosa.
+
+## Selección prioritaria
+
+| Tema | Lectura central | Recurso práctico | Entregable |
+|---|---|---|---|
+| [I](#tema-1) | Kendall, caps. 1–3; cap. 6 para agilidad | Guía Scrum | E1 |
+| [II](#tema-2) | Kendall, cap. 7 | IBM DFD y diagrams.net | E2 |
+| [III](#tema-3) | Kendall, caps. 8–9 | Diccionario DFD y documentación de restricciones | E3–E4 |
+| [IV](#tema-4) | Kendall, caps. 11–12 y 14 | Figma y W3C | E5 |
+| [V](#tema-5) | Elmasri y Navathe; Kendall, cap. 13 | PostgreSQL y Mermaid ER | E6 |
+| [VI](#tema-6) | Kendall, cap. 16; ISTQB CTFL 4.0.1 | Django, pytest y pytest-django | E7–E8 |
+
+## Bibliografía fundamental
+
+### Texto principal verificado
+
+Kendall, K. E., y Kendall, J. E. *Systems Analysis and Design* (11.ª ed.). Pearson. Publicación: 2023; copyright: 2024. ISBN de la edición impresa estadounidense: **9780137947805**; eText: **9780137947850**. [Ficha oficial e índice de capítulos de Pearson](https://www.pearson.com/en-us/subject-catalog/p/systems-analysis-and-design/P200000009877). **Libro comercial en inglés.**
+
+La numeración de capítulos de este índice se comprobó en esa edición inglesa. El programa cita el título en español; no se presume que exista una traducción con el mismo año, ISBN o paginación. Comprobar la edición disponible antes de asignar páginas.
+
+### Texto complementario de análisis y diseño
+
+Valacich, J. S., y George, J. F. *Modern Systems Analysis and Design* (8.ª ed., Global Edition). Pearson. ISBN impreso: **9781292154145**. [Catálogo oficial de Pearson con edición, autores e ISBN](https://www.pearson.com/content/dam/one-dot-com/one-dot-com/apac/japan/catalog/2019-hed-catalog.pdf). **Libro comercial; el catálogo es de libre consulta.**
+
+El catálogo identifica esta edición con Valacich y George. La atribución «Hoffer, Ramesh y Topi» del programa no corresponde a esa ficha y requiere corrección docente en el documento fuente; se conserva literalmente más abajo para mantener la trazabilidad. No se utiliza la portada de otra obra como identificación bibliográfica.
+
+### Obras originales del programa
+
+Se conservan las nueve referencias originales. Salvo las verificaciones señaladas arriba, sus títulos, ediciones, autorías, años e ISBN quedan sujetos a revisión editorial; no se completan por suposición. La conservación de una referencia no confirma que todos sus datos sean correctos.
 
 1. Kendall, K. & Kendall, J. Análisis y Diseño de Sistemas. 11ª ed. Pearson.
 2. Whitten, J.; Bentley, L. & Dittman, K. Análisis, Diseño e Implementación de Sistemas. 7ª ed. McGraw-Hill.
@@ -12,15 +43,137 @@ Transcripción de las nueve referencias del programa principal, p. 2. No se han 
 8. Stair, R. & Reynolds, G. Principios de Sistemas de Información. 14ª ed. Cengage.
 9. Pérez López, J. Sistemas de Información para la Gestión. Ed. Pirámide.
 
-## Orientación por unidad (propuesta)
+<a id="tema-1"></a>
 
-| Unidades | Referencias del listado | Uso orientativo |
+## Tema 1. Introducción a los Sistemas de Información
+
+Sistemas, clasificación, ciclo de vida y metodologías ágiles.
+
+### Bibliografía académica
+
+**Básica:** Kendall y Kendall, capítulos 1–3 y 6. **Complementaria:** Laudon y Laudon; Stair y Reynolds, para fundamentos organizacionales y toma de decisiones.
+
+### Recursos de apoyo
+
+| Recurso | Tipo de acceso | Aplicación académica |
 |---|---|---|
-| I | 5, 6, 8, 9 | Tipos de SI, información y gestión |
-| II–IV | 1, 2, 3, 4 | Análisis estructurado, datos, procesos e interfaces |
-| V | 7; apoyo de 1–4 | ER, normalización y diseño relacional |
-| VI | 1–4 | Pruebas, implantación y mantenimiento |
+| [IBM · Information Systems](https://www.ibm.com/think/topics/information-systems) | Recurso de libre consulta | Conceptos y función organizacional de los SI. |
+| [Guía Scrum oficial](https://scrumguides.org/download.html) | Guía de libre consulta; versión española disponible | Scrum, responsabilidades, eventos y artefactos. |
+| [Kanban University · Kanban Guide](https://kanban.university/kanban-guide/) | Guía de libre consulta | Visualización y gestión del flujo; guía de Kanban University. |
 
-No se indican capítulos o páginas sin comprobar la edición concreta. La docente debe validar las referencias editoriales antes de completar dichos localizadores. Para apoyo abierto están disponibles las [documentaciones oficiales del entorno](herramientas.md).
+**Aplicación al proyecto:** Caracterizar el sistema, actores, necesidades, requisitos, objetivos y alcance. **E1.**
 
-[Recursos](README.md) · [Inicio](../README.md)
+<a id="tema-2"></a>
+
+## Tema 2. Modelado de Sistemas mediante DFD
+
+Modelado estructurado, procesos, flujos, almacenes, entidades externas y descomposición.
+
+### Bibliografía académica
+
+**Básica:** Kendall y Kendall, capítulo 7. **Complementaria:** Senn, para el enfoque estructurado.
+
+### Recursos de apoyo
+
+| Recurso | Tipo de acceso | Aplicación académica |
+|---|---|---|
+| [IBM · Data Flow Diagram](https://www.ibm.com/think/topics/data-flow-diagram) | Recurso de libre consulta | Componentes, conexiones y niveles de DFD. |
+| [Lucidchart · Data Flow Diagram](https://www.lucidchart.com/pages/data-flow-diagram) | Tutorial de libre consulta; herramienta con planes comerciales | Ejemplos de diagramas y descomposición. |
+| [draw.io / diagrams.net](https://www.drawio.com/) | Herramienta de acceso gratuito | Dibujo de los DFD con una convención de notación explícita. |
+
+**Aplicación al proyecto:** Construir contexto y niveles requeridos; comprobar balance de flujos. **E2.** Las fuentes externas pueden usar otra convención para «nivel 0»: aplicar la acordada en el curso. Mermaid se reserva para diagramas compatibles; un flowchart no acredita por sí solo una notación DFD.
+
+<a id="tema-3"></a>
+
+## Tema 3. Diccionario de Datos y Especificación de Procesos
+
+Diccionarios, metadatos, reglas de negocio y decisiones estructuradas.
+
+### Bibliografía académica
+
+**Básica:** Kendall y Kendall, capítulos 8–9. **Complementaria:** Whitten, Bentley y Dittman; validar la referencia editorial del programa.
+
+### Recursos de apoyo
+
+| Recurso | Tipo de acceso | Aplicación académica |
+|---|---|---|
+| [IBM · Data Dictionary](https://www.ibm.com/think/topics/data-dictionary) | Recurso de libre consulta | Conceptos de documentación y diccionarios de datos. |
+| [OMG · Decision Model and Notation](https://www.omg.org/spec/DMN/) | Especificación de libre consulta; profundización opcional | Formalización de decisiones; no se exige implementar DMN. |
+| [PostgreSQL · Constraints](https://www.postgresql.org/docs/current/ddl-constraints.html) | Documentación técnica | Anticipar restricciones de la futura BD; no sustituye al diccionario lógico del DFD. |
+
+**Aplicación al proyecto:** Documentar flujos, almacenes y elementos en **E3**, y procesos primitivos, reglas y tablas de decisión en **E4**. Distinguir el diccionario DFD del diccionario de BD de E6.
+
+<a id="tema-4"></a>
+
+## Tema 4. Diseño de Entradas y Salidas
+
+Formularios, validaciones, reportes, usabilidad y prototipos.
+
+### Bibliografía académica
+
+**Básica:** Kendall y Kendall, capítulos 11–12 y 14.
+
+### Recursos de apoyo
+
+| Recurso | Tipo de acceso | Aplicación académica |
+|---|---|---|
+| [Nielsen Norman Group · 10 heurísticas de usabilidad](https://www.nngroup.com/articles/ten-usability-heuristics/) | Artículo de libre consulta | Criterios para revisar la usabilidad del prototipo. |
+| [W3C WAI · Forms Tutorial](https://www.w3.org/WAI/tutorials/forms/) | Tutorial de libre consulta | Etiquetas, instrucciones, agrupación y validación accesible. |
+| [Figma · Centro de ayuda](https://help.figma.com/) | Documentación técnica; funcionalidades según plan | Wireframes y prototipos navegables. |
+| [Django · Working with forms](https://docs.djangoproject.com/en/5.2/topics/forms/) | Documentación técnica, versión 5.2 | Construcción y validación de formularios al implementar el diseño. |
+
+**Aplicación al proyecto:** Diseñar entradas, consultas y reportes en **E5**. Revisar los mensajes y las necesidades del usuario; la implementación en Django se integra posteriormente en E7.
+
+<a id="tema-5"></a>
+
+## Tema 5. Diseño de Bases de Datos para Sistemas de Información
+
+ER, normalización hasta 3FN, modelo relacional, SQL e introducción a NoSQL.
+
+### Bibliografía académica
+
+**Básica:** Elmasri y Navathe, modelado ER y normalización; Kendall y Kendall, capítulo 13. **Complementaria:** Valacich y George, *Modern Systems Analysis and Design*, para el diseño de BD.
+
+### Recursos de apoyo
+
+| Recurso | Tipo de acceso | Aplicación académica |
+|---|---|---|
+| [PostgreSQL · Tutorial](https://www.postgresql.org/docs/current/tutorial.html) | Documentación técnica | Introducción a las bases de datos relacionales. |
+| [PostgreSQL · Data Definition](https://www.postgresql.org/docs/current/ddl.html) | Documentación técnica | Tablas, tipos, claves y restricciones. |
+| [PostgreSQL · SQL Language](https://www.postgresql.org/docs/current/sql.html) | Documentación técnica | Definición, consulta y manipulación de datos. |
+| [Mermaid · Entity Relationship Diagrams](https://mermaid.js.org/syntax/entityRelationshipDiagram.html) | Documentación técnica | Representación y documentación del modelo ER. |
+| [MongoDB · NoSQL Explained](https://www.mongodb.com/resources/basics/databases/nosql-explained) | Recurso de libre consulta; profundización conceptual | Introducción a NoSQL; no cambia la BD PostgreSQL del proyecto. |
+
+**Aplicación al proyecto:** Producir ER, cardinalidades, normalización, esquema relacional, scripts SQL y diccionario de BD. **E6.**
+
+<a id="tema-6"></a>
+
+## Tema 6. Pruebas y Mantenimiento de Sistemas
+
+Pruebas unitarias, integración, sistema, aceptación, mantenimiento y documentación.
+
+### Bibliografía académica
+
+**Básica:** Kendall y Kendall, capítulo 16. **Complementaria:** Whitten, Bentley y Dittman; ISTQB, *Certified Tester Foundation Level Syllabus*, versión 4.0.1.
+
+### Recursos de apoyo
+
+| Recurso | Tipo de acceso | Aplicación académica |
+|---|---|---|
+| [ISTQB · CTFL Syllabus 4.0.1 (PDF)](https://istqb.org/wp-content/uploads/2024/11/ISTQB_CTFL_Syllabus_v4.0.1.pdf) | Programa de libre consulta | Terminología, niveles y técnicas de pruebas; no requiere rendir certificación. |
+| [pytest · Documentación](https://docs.pytest.org/en/stable/) | Documentación técnica | Pruebas automatizadas Python. |
+| [pytest-django · Documentación](https://pytest-django.readthedocs.io/en/latest/) | Documentación técnica | Configuración y pruebas de BD para Django. |
+| [Django · Testing](https://docs.djangoproject.com/en/5.2/topics/testing/) | Documentación técnica, versión 5.2 | Pruebas de aplicaciones Django. |
+| [GitHub Actions](https://docs.github.com/en/actions) | Documentación técnica | Ejecución automática de pruebas. |
+| [OWASP · Web Security Testing Guide](https://wstg.owasp.org/) | Guía de libre consulta; profundización opcional | Comprobaciones básicas de seguridad en entornos de prueba autorizados. |
+| [GitHub · Repositories](https://docs.github.com/en/repositories) | Documentación técnica | Historial, repositorios y gestión de cambios. |
+
+**Aplicación al proyecto:** Integrar la aplicación, ejecutar pruebas y registrar defectos en **E7**; documentar versiones, mantenimiento y manuales en **E8**.
+
+## Uso de versiones y acceso
+
+Las rutas `current`, `stable` y `latest` pueden cambiar con el tiempo. Los enlaces Django 5.2 se conservan como referencia explícita de la selección docente: cada equipo debe consultar la versión que corresponda a su instalación. No se impone una versión nueva por añadir bibliografía.
+
+Fecha de revisión de enlaces: 12 de noviembre de 2026. El [registro de verificación](../docs/verificacion.md) diferencia las páginas accesibles de las que bloquean la comprobación automática. Ningún recurso opcional incorpora nuevos frameworks obligatorios o entregables.
+
+[Herramientas](herramientas.md) · [Recursos](README.md) · [Inicio](../README.md)

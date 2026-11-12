@@ -1,6 +1,6 @@
 # Verificación de la implementación inicial
 
-Revisión del 12 de noviembre de 2026. Resultado: 196 enlaces relativos comprobados, sin destinos inexistentes después de unificar el trabajo en E1–E8; 21 URLs externas accesibles (HTTP 200 tras redirecciones). La ruta antigua de draw.io se sustituyó por su documentación actual antes de publicar.
+Revisión del 12 de noviembre de 2026. Resultado: 204 enlaces relativos comprobados, incluidos los seis destinos bibliográficos por tema; 21 URLs externas accesibles (HTTP 200 tras redirecciones). La ruta antigua de draw.io se sustituyó por su documentación actual antes de publicar.
 
 ## Alcance de las comprobaciones
 
@@ -40,3 +40,9 @@ No se ejecutaron las prácticas con estudiantes, un servidor PostgreSQL, una apl
 | https://www.drawio.com/doc/faq/ | HTTP Error 404: Not Found |
 | https://www.pgadmin.org/docs/ | 200 |
 | https://www.postgresql.org/docs/ | 200 |
+
+## Ampliación bibliográfica
+
+Se revisó el índice de capítulos de la 11.ª edición inglesa de Kendall en Pearson y la atribución de Modern Systems Analysis and Design en el catálogo oficial. Se mantienen las nueve referencias originales con observaciones editoriales. No se trasladan los capítulos a una supuesta traducción española sin verificar.
+
+Se comprobaron las 27 URLs bibliográficas con resultado HTTP 200 tras redirecciones y reintento de dos respuestas temporales 503 de PostgreSQL. Los capítulos y recursos son orientaciones de lectura para E1–E8, sin tareas adicionales.

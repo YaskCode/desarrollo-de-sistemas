@@ -19,7 +19,7 @@ Corresponde a **E1**, según el [índice de ocho entregables](../../proyecto-int
 
 - [Programa principal y presentación](../../programa/README.md).
 - [Presentación general del programa y del proyecto](../../presentaciones/README.md).
-- [Bibliografía y su correspondencia temática](../../recursos/bibliografia.md).
+- [Bibliografía y recursos del tema 1](../../recursos/bibliografia.md#tema-1).
 - [Herramientas del entorno docente](../../recursos/herramientas.md).
 - [Observaciones sobre fuentes y herramientas](../../docs/observaciones.md).
 
