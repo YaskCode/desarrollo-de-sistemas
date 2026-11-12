@@ -1,5 +1,11 @@
 # Historial del ejemplo
 
+## Uso en Codespaces
+
+- Origen local exacto del túnel admitido exclusivamente en Codespaces, sin desactivar CSRF.
+- Comprobación de orígenes permitidos con token y rechazo sin token o desde origen ajeno.
+- Guía ampliada para contraseñas, terminales separadas, reinicio y recuperación del reenvío privado.
+
 ## Entorno de desarrollo reproducible
 
 - Dev container local y compatible con Codespaces, con PostgreSQL 16 aislado.
