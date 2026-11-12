@@ -13,9 +13,21 @@
 
 Verificar comportamientos y registrar defectos, cambios y mantenimiento.
 
+## Material de estudio
+
+1. [Apuntes del tema](apuntes.md).
+2. [Ejemplo aplicado al proyecto de estudio](ejemplo-pruebas-mantenimiento.md).
+3. [Lecturas del Tema 6](../../recursos/bibliografia.md#tema-6).
+
+Consultar además el [mini proyecto Django/PostgreSQL](../../ejemplos/django-postgresql/README.md).
+
 ## Trabajo de la unidad y evaluación
 
 Corresponde a **E7 y E8**, según el [índice de ocho entregables](../../proyecto-integrador/entregables/README.md). Las fichas reúnen alcance, guía de elaboración, evidencias y comprobación previa. No se asignan tareas paralelas ni porcentajes internos.
+
+## Prácticas de ingeniería aplicadas
+
+**TDD, verificación y validación.** Aplicar el ciclo prueba–implementación–refactorización a reglas concretas en E7; mantener evidencias y documentación en E8. Integrar la suite en GitHub Actions al consolidar el proyecto. Consultar las [estrategias transversales](../../docs/enfoques-ingenieria.md). Estas prácticas forman parte de los entregables existentes.
 
 ## Recursos
 

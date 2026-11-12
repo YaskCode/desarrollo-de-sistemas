@@ -7,6 +7,19 @@
 3. Consultar la ficha del [proyecto integrador](../proyecto-integrador/proyectos-propuestos.md) asignado al equipo.
 4. Desarrollar los [entregables E1–E8](../proyecto-integrador/entregables/README.md) en el repositorio del equipo en [YaskCode-laboratory](https://github.com/YaskCode-laboratory).
 
+## Ruta de estudio en cada unidad
+
+| Paso | Qué hacer | Resultado que debes poder explicar |
+|---|---|---|
+| 1 · Comprender | Leer los contenidos y la lectura central de la unidad | Qué problema o concepto estudias y cómo se aplica a tu sistema |
+| 2 · Examinar | Revisar los ejemplos disponibles y contrastarlos con tu dominio | Qué decisiones son transferibles y cuáles dependen de reglas particulares |
+| 3 · Construir | Elaborar la entrega correspondiente usando su guía | Una evidencia del proyecto vinculada a requisitos y decisiones |
+| 4 · Comprobar | Recorrer la lista de la ficha y registrar resultados | Qué cumple, cómo lo verificaste y qué corregiste |
+| 5 · Presentar | Identificar el commit y los enlaces de las evidencias | Una versión estable que otra persona puede consultar y reproducir |
+| 6 · Mejorar | Atender la retroalimentación y mantener trazabilidad | Cambios identificables sin perder la versión presentada |
+
+Cada unidad reúne apuntes, un ejemplo de estudio y sus lecturas. Comenzar por el [índice de unidades](../unidades/README.md). Cada ejemplo sirve para comprender decisiones, no para sustituir el análisis del proyecto propio.
+
 ## Preparar y presentar una entrega
 
 Trabajar en una rama, registrar los cambios con Git y utilizar issues y pull requests para coordinar tareas y revisar aportes. Mantener la documentación de cada entrega dentro del repositorio del equipo.
@@ -31,10 +44,14 @@ Para consultas sobre un entregable, indicar su número y la sección que origina
 
 Explicar las decisiones del equipo, citar las fuentes utilizadas y distinguir los aportes propios del material de terceros. Utilizar datos sintéticos para las demostraciones y pruebas.
 
+## Estrategias de desarrollo
+
+Aplicar [SDD, DDD, TDD y verificación y validación](enfoques-ingenieria.md) según la unidad y el entregable. Conservar las evidencias de revisión y actualizar los documentos cuando cambien las reglas del proyecto.
+
 ## Entorno y documentación
 
-Consultar las [herramientas](../recursos/herramientas.md) y la [preparación del entorno](entorno.md). Registrar las versiones compatibles utilizadas y conservar las dependencias del proyecto.
+Consultar las [herramientas](../recursos/herramientas.md), la [preparación del entorno](entorno.md) y la [integración continua](integracion-continua.md). Registrar las versiones compatibles utilizadas y conservar las dependencias del proyecto.
 
 Mantener Markdown con títulos jerárquicos, enlaces descriptivos y texto alternativo en imágenes. Usar enlaces relativos entre documentos del repositorio del equipo.
 
-[Plan de evaluación](evaluacion.md) · [Inicio](../README.md)
+[Preguntas frecuentes](preguntas-frecuentes.md) · [Plan de evaluación](evaluacion.md) · [Inicio](../README.md)

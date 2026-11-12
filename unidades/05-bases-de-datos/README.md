@@ -11,9 +11,21 @@
 
 Transformar un modelo ER en un esquema relacional normalizado.
 
+## Material de estudio
+
+1. [Apuntes del tema](apuntes.md).
+2. [Ejemplo aplicado al proyecto de estudio](ejemplo-base-datos.md).
+3. [Lecturas del Tema 5](../../recursos/bibliografia.md#tema-5).
+
+Consultar además el [mini proyecto Django/PostgreSQL](../../ejemplos/django-postgresql/README.md).
+
 ## Trabajo de la unidad y evaluación
 
 Corresponde a **E6**, según el [índice de ocho entregables](../../proyecto-integrador/entregables/README.md). Las fichas reúnen alcance, guía de elaboración, evidencias y comprobación previa. No se asignan tareas paralelas ni porcentajes internos.
+
+## Prácticas de ingeniería aplicadas
+
+**DDD y verificación.** Comprobar que las relaciones, claves y restricciones de E6 representan las reglas del dominio. Consultar las [estrategias transversales](../../docs/enfoques-ingenieria.md). Estas prácticas forman parte de los entregables existentes.
 
 ## Recursos
 

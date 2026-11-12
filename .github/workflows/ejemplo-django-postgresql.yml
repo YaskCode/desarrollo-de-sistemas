@@ -1,0 +1,115 @@
+name: Ejemplo Django y PostgreSQL
+on:
+  pull_request:
+  push:
+    branches: [main]
+  workflow_dispatch:
+permissions:
+  contents: read
+concurrency:
+  group: ejemplo-${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
+jobs:
+  pruebas:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    defaults:
+      run:
+        working-directory: ejemplos/django-postgresql
+    services:
+      postgres:
+        image: postgres:16
+        env:
+          POSTGRES_DB: pp4_desarrollo
+          POSTGRES_USER: pp4_local
+          POSTGRES_PASSWORD: pp4_ci_efimera
+        ports:
+          - 5432:5432
+        options: >-
+          --health-cmd "pg_isready -U pp4_local -d pp4_desarrollo"
+          --health-interval 10s
+          --health-timeout 5s
+          --health-retries 5
+    env:
+      PP4_DB_NAME: pp4_desarrollo
+      PP4_DB_USER: pp4_local
+      PP4_DB_PASSWORD: pp4_ci_efimera
+      PP4_DB_HOST: 127.0.0.1
+      PP4_DB_PORT: "5432"
+      PP4_SECRET_KEY: clave-solo-para-pruebas-efimeras-de-ci
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+          cache-dependency-path: ejemplos/django-postgresql/requirements.txt
+      - name: Instalar dependencias
+        run: python -m pip install -r requirements.txt
+      - name: Comprobar dependencias y configuración
+        run: |
+          python -m pip check
+          python manage.py check
+      - name: Comprobar y aplicar migraciones
+        run: |
+          python manage.py makemigrations --check --dry-run
+          python manage.py migrate --noinput
+      - name: Ejecutar pruebas
+        run: python -m pytest -q --junitxml=reporte-pruebas.xml
+      - name: Guardar reporte de pruebas
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: reporte-pruebas-postgresql
+          path: ejemplos/django-postgresql/reporte-pruebas.xml
+          if-no-files-found: ignore
+          retention-days: 7
+
+  devcontainer:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+      - name: Validar y arrancar Compose
+        run: |
+          docker compose -f .devcontainer/compose.yaml config --quiet
+          docker compose -f .devcontainer/compose.yaml up -d --wait
+      # Compose directo no ajusta el UID como lo hace Dev Containers en Linux.
+      - name: Alinear permisos del montaje y comprobar edición
+        run: |
+          docker compose -f .devcontainer/compose.yaml exec -T --user root app chown -R vscode:vscode /workspaces/desarrollo-de-sistemas
+          docker compose -f .devcontainer/compose.yaml exec -T --user vscode app sh -c 'touch .comprobacion-escritura && rm .comprobacion-escritura'
+      - name: Preparar como usuario de desarrollo y comprobar reinicio
+        run: |
+          docker compose -f .devcontainer/compose.yaml exec -T --user vscode app bash /workspaces/desarrollo-de-sistemas/.devcontainer/preparar.sh
+          docker compose -f .devcontainer/compose.yaml restart
+          docker compose -f .devcontainer/compose.yaml exec -T --user vscode app bash /workspaces/desarrollo-de-sistemas/.devcontainer/preparar.sh
+      - name: Comprobar migraciones y suite dentro del contenedor
+        run: |
+          docker compose -f .devcontainer/compose.yaml exec -T --user vscode app python manage.py makemigrations --check --dry-run
+          docker compose -f .devcontainer/compose.yaml exec -T --user vscode app python -m pytest -q
+      - name: Comprobar host y CSRF de Codespaces
+        run: |
+          docker compose -f .devcontainer/compose.yaml exec -T --user vscode -e CODESPACES=true -e CODESPACE_NAME=pp4-prueba -e GITHUB_CODESPACES_PORT_FORWARDING_DOMAIN=app.github.dev app python -c 'from config.settings import ALLOWED_HOSTS, CSRF_TRUSTED_ORIGINS; assert "pp4-prueba-8000.app.github.dev" in ALLOWED_HOSTS; assert CSRF_TRUSTED_ORIGINS == ["https://pp4-prueba-8000.app.github.dev", "https://localhost:8000"]'
+      - name: Comprobar protección CSRF a través del túnel
+        run: |
+          docker compose -f .devcontainer/compose.yaml exec -T --user vscode -e CODESPACES=true -e CODESPACE_NAME=pp4-prueba -e GITHUB_CODESPACES_PORT_FORWARDING_DOMAIN=app.github.dev app python /workspaces/desarrollo-de-sistemas/.devcontainer/comprobar_csrf.py
+      - name: Comprobar servidor HTTP
+        run: |
+          docker compose -f .devcontainer/compose.yaml exec -d --user vscode app python manage.py runserver 0.0.0.0:8000 --noreload
+          docker compose -f .devcontainer/compose.yaml exec -T app python - <<'PY'
+          import time
+          import urllib.request
+          for intento in range(30):
+              try:
+                  with urllib.request.urlopen("http://127.0.0.1:8000/entrar/", timeout=2) as response:
+                      assert response.status == 200
+                  break
+              except OSError:
+                  if intento == 29:
+                      raise
+                  time.sleep(1)
+          PY
+      - name: Eliminar entorno temporal
+        if: always()
+        run: docker compose -f .devcontainer/compose.yaml down --volumes

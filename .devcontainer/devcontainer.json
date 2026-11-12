@@ -1,0 +1,21 @@
+{
+  "name": "PP4 · Django y PostgreSQL",
+  "dockerComposeFile": "compose.yaml",
+  "service": "app",
+  "workspaceFolder": "/workspaces/desarrollo-de-sistemas/ejemplos/django-postgresql",
+  "remoteUser": "vscode",
+  "shutdownAction": "stopCompose",
+  "forwardPorts": [8000],
+  "portsAttributes": {
+    "8000": {"label": "Django · PP4", "onAutoForward": "notify", "visibility": "private"}
+  },
+  "otherPortsAttributes": {"onAutoForward": "ignore"},
+  "customizations": {
+    "vscode": {
+      "extensions": ["ms-python.python"],
+      "settings": {"remote.autoForwardPorts": false, "python.defaultInterpreterPath": "/usr/local/bin/python"}
+    }
+  },
+  "postCreateCommand": "bash /workspaces/desarrollo-de-sistemas/.devcontainer/preparar.sh",
+  "postStartCommand": "bash /workspaces/desarrollo-de-sistemas/.devcontainer/preparar.sh"
+}

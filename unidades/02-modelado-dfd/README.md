@@ -11,6 +11,12 @@
 
 Construir DFD y comprobar el balance entre niveles.
 
+## Material de estudio
+
+1. [Apuntes del tema](apuntes.md).
+2. [Ejemplo aplicado al proyecto de estudio](ejemplo-dfd.md).
+3. [Lecturas del Tema 2](../../recursos/bibliografia.md#tema-2).
+
 ## Trabajo de la unidad y evaluación
 
 Corresponde a **E2**, según el [índice de ocho entregables](../../proyecto-integrador/entregables/README.md). Las fichas reúnen alcance, guía de elaboración, evidencias y comprobación previa. No se asignan tareas paralelas ni porcentajes internos.
@@ -60,6 +66,10 @@ flowchart TD
 ```
 
 Este fragmento ilustra registro y consulta; no representa el contexto completo ni sustituye la descomposición a nivel 2 exigida en E2. Mantener los mismos identificadores y flujos en el diccionario de E3.
+
+## Prácticas de ingeniería aplicadas
+
+**SDD y verificación.** Comprobar en E2 el balance y la coherencia de los DFD. Que Mermaid renderice el código no demuestra que el modelo sea correcto. Consultar las [estrategias transversales](../../docs/enfoques-ingenieria.md). Estas prácticas forman parte de los entregables existentes.
 
 ## Recursos
 
