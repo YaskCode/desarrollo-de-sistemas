@@ -2,6 +2,7 @@
 from pathlib import Path
 import shutil
 import sys
+from html.parser import HTMLParser
 
 ROOT = Path(__file__).resolve().parents[1]
 PROJECT = ROOT / "ejemplos/django-postgresql"
@@ -28,6 +29,14 @@ def build(output):
     (destination / "index.html").write_text(content)
     for name in ("codelab.css", "codelab.js"):
         shutil.copyfile(PROJECT / "gestion/static/gestion" / name, assets / name)
+    class Resources(HTMLParser):
+        def handle_starttag(self, tag, attrs):
+            attrs = dict(attrs)
+            value = attrs.get("src") if tag == "script" else attrs.get("href") if tag == "link" else None
+            if value:
+                assert not value.startswith("/"), value
+                assert (destination / value).is_file(), value
+    Resources().feed(content)
     (output / ".nojekyll").touch()
     (output / "index.html").write_text('<!doctype html><html lang="es"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>PP4 · Desarrollo de Sistemas</title><h1>PP4 · Desarrollo de Sistemas</h1><p><a href="codelabs/postulaciones-django/">Codelab: Postulaciones con Django y PostgreSQL</a></p><p><a href="https://github.com/YaskCode/desarrollo-de-sistemas">Material de la asignatura</a></p></html>')
     print("Guía pública generada:", destination / "index.html")
