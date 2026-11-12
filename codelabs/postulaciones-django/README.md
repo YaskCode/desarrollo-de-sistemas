@@ -33,7 +33,7 @@ Las evidencias se guardan en la sesión Django existente, sin tablas ni cuentas 
 
 ## Mantenimiento y comprobaciones
 
-Al añadir o quitar pasos, mantener la correspondencia de secciones Markdown con los criterios en `steps()`. El renderizador admite deliberadamente un subconjunto pequeño de Markdown. Los enlaces del modo interactivo apuntan a la rama revisable del codelab; al integrar y eliminar esa rama se debe actualizar `BASE` a una referencia estable conservada. Los enlaces relativos de la fuente Markdown siguen funcionando en la referencia que se esté leyendo en GitHub.
+Al añadir o quitar pasos, mantener la correspondencia de secciones Markdown con los criterios en `steps()`. El renderizador admite deliberadamente un subconjunto pequeño de Markdown. Los enlaces del modo interactivo y público apuntan a main. Los enlaces relativos de la fuente Markdown siguen funcionando en la referencia que se esté leyendo en GitHub.
 
 Con el entorno preparado, desde el mini proyecto:
 
@@ -43,4 +43,6 @@ python ../../.devcontainer/comprobar_codelab.py
 
 El workflow también ejecuta el recorrido de navegador contra Django y PostgreSQL reales, con una cuenta efímera y una contraseña generada en memoria. Conserva capturas de escritorio y móvil y JSON de una ejecución real como artefacto temporal de revisión. No exporta cookies, formularios con tokens ni credenciales. La prueba de navegador no sustituye una auditoría completa con lectores de pantalla ni validación con estudiantes.
 
-La guía está disponible como contenido revisable en GitHub; no presupone publicación en Pages. Publicar una guía estática, ofrecer una demo pública o introducir seguimiento del alumnado son decisiones independientes.
+La guía pública se genera con `python scripts/construir_codelab.py` en `_site/codelabs/postulaciones-django/index.html`. El workflow `codelab-pages.yml` guarda una vista previa en los PR y publica únicamente los cambios de main en GitHub Pages. La generación no importa settings.py, no necesita PostgreSQL ni variables PP4 y no exporta tokens de sesión. El modo público conserva navegación y comandos; sustituye el validador por instrucciones explícitas para abrir el entorno privado, sin solicitudes a su API ni estados de aprobado.
+
+Dirección prevista de la guía: https://yaskcode.github.io/desarrollo-de-sistemas/codelabs/postulaciones-django/ . La habilitación inicial de Pages puede requerir seleccionar GitHub Actions en Settings → Pages si GitHub rechaza el permiso de configuración del workflow. Ofrecer una demo pública Django o introducir seguimiento del alumnado sigue siendo una decisión independiente.

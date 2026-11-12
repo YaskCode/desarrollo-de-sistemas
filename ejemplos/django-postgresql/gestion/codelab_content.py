@@ -6,7 +6,7 @@ from urllib.parse import urljoin, urlsplit
 from django.utils.safestring import mark_safe
 
 SOURCE = Path(__file__).resolve().parents[3] / "codelabs/postulaciones-django/codelab.md"
-BASE = "https://github.com/YaskCode/desarrollo-de-sistemas/blob/feat/codelab-postulaciones/codelabs/postulaciones-django/"
+BASE = "https://github.com/YaskCode/desarrollo-de-sistemas/blob/main/codelabs/postulaciones-django/"
 
 def inline(text):
     def link(match):

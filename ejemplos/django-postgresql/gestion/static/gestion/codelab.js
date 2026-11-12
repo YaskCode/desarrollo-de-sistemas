@@ -45,4 +45,4 @@ boxes.forEach(box=>{
   box.querySelector(".download").addEventListener("click",()=>{if(!box.proof)return;const url=URL.createObjectURL(new Blob([JSON.stringify(box.proof,null,2)],{type:"application/json"}));const a=document.createElement("a");a.href=url;a.download="pp4-"+box.dataset.criterion+".json";a.click();URL.revokeObjectURL(url);});
 });
 document.querySelectorAll(".copy").forEach(button=>button.addEventListener("click",async()=>{try{await navigator.clipboard.writeText(button.parentElement.querySelector("code").textContent);button.textContent="Copiado";}catch{button.textContent="Selecciona y copia el texto";}}));
-refresh();setInterval(refresh,5000);document.addEventListener("visibilitychange",()=>{if(!document.hidden)refresh();});
+if(boxes.length){refresh();setInterval(refresh,5000);document.addEventListener("visibilitychange",()=>{if(!document.hidden)refresh();});}

@@ -64,6 +64,8 @@ jobs:
           python -m playwright install chromium
       - name: Comprobar interfaz contra Django y PostgreSQL reales
         run: python ../../.devcontainer/comprobar_codelab_web.py
+      - name: Comprobar guía pública estática
+        run: python ../../.devcontainer/comprobar_codelab_publico.py
       - name: Guardar vista previa y evidencia del codelab
         if: always()
         uses: actions/upload-artifact@v4

@@ -6,7 +6,7 @@ PP4 – Desarrollo de Sistemas (960116), sexto semestre, Licenciatura en Computa
 
 Recorrido autoguiado sin límite pedagógico de tiempo. Puedes retroceder, retomar y repetir las comprobaciones. Complementa E6–E8; no añade una entrega ni modifica la evaluación. Es un ejemplo hipotético, sin procedimientos oficiales de FEC-LUZ. Los proyectos completos permanecen en [YaskCode-laboratory](https://github.com/YaskCode-laboratory).
 
-Necesitas la copia confiable del repositorio, Python y PostgreSQL del entorno preparado y una cuenta sintética del ejemplo. Sigue [apertura y recuperación del entorno](../../docs/devcontainer.md) o la [preparación manual](../../docs/entorno.md). Codespaces es opcional: revisa disponibilidad, cuotas y facturación antes de crear uno. También puedes usar VS Code, Docker y Dev Containers localmente.
+Utiliza la rama main del repositorio. Necesitas la copia confiable del repositorio, Python y PostgreSQL del entorno preparado y una cuenta sintética del ejemplo. Sigue [apertura y recuperación del entorno](../../docs/devcontainer.md) o la [preparación manual](../../docs/entorno.md). Codespaces es opcional: revisa disponibilidad, cuotas y facturación antes de crear uno. También puedes usar VS Code, Docker y Dev Containers localmente.
 
 Concede confianza a la carpeta si has revisado su origen. En una terminal del contenedor:
 
@@ -97,4 +97,4 @@ Si una comprobación no termina o pierde la conexión, se quita el verde y se mu
 
 Al terminar, detén Django con Ctrl+C y detén el Codespace desde GitHub si lo utilizaste. Cerrar la pestaña no confirma su parada. Guarda tus cambios antes de eliminar un entorno. Consulta [ayuda completa](../../docs/devcontainer.md), [preguntas frecuentes](../../docs/preguntas-frecuentes.md) y [bibliografía](../../recursos/bibliografia.md).
 
-Esta experiencia propia de YaskCode se inspira en el aprendizaje guiado; no es un producto ni una certificación oficial de Google. La guía en Markdown se puede leer en GitHub. Una publicación en Pages requiere una decisión independiente y no ejecutaría el validador.
+Esta experiencia propia de YaskCode se inspira en el aprendizaje guiado; no es un producto ni una certificación oficial de Google. La guía en Markdown se puede leer en GitHub. La guía pública en Pages conserva el menú por pasos y no ejecuta el validador. Las comprobaciones se realizan en el entorno privado.

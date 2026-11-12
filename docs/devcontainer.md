@@ -6,7 +6,7 @@ Este entorno abre exclusivamente el [mini proyecto docente](../ejemplos/django-p
 
 **En el equipo local:** instalar Git, Docker con Compose y VS Code con la extensión Dev Containers. Iniciar Docker, clonar el repositorio, seleccionar la rama que contiene esta configuración y abrir su raíz en VS Code. Ejecutar **Dev Containers: Reopen in Container**. No es necesario instalar Python, PostgreSQL ni pgAdmin en el anfitrión. La primera apertura descarga las imágenes y necesita conexión a Internet.
 
-**En GitHub Codespaces:** antes de crear uno, revisar en la cuenta u organización la disponibilidad, quién paga, cuotas de cómputo y almacenamiento, presupuestos y límites. No se garantiza gratuidad para todas las cuentas. Si existe un costo o se requiere autorización de la organización, resolverlo antes de crear el entorno. En el repositorio, seleccionar la rama que contiene el ejemplo, ir a **Code → Codespaces** y crear el entorno con esta configuración cuando esté autorizado. Mientras el PR no esté fusionado, utilizar `feat/unidad-01-material-docente`.
+**En GitHub Codespaces:** antes de crear uno, revisar en la cuenta u organización la disponibilidad, quién paga, cuotas de cómputo y almacenamiento, presupuestos y límites. No se garantiza gratuidad para todas las cuentas. Si existe un costo o se requiere autorización de la organización, resolverlo antes de crear el entorno. En el repositorio, seleccionar la rama que contiene el ejemplo, ir a **Code → Codespaces** y crear el entorno con esta configuración cuando esté autorizado. Seleccionar `main`, donde se mantiene el entorno de la asignatura.
 
 ## 2. Preparar
 
