@@ -2,6 +2,8 @@
 
 Realizar estos pasos en el repositorio del equipo, en una carpeta de trabajo nueva. Esta guía prepara Django, PostgreSQL y pytest; no implementa los módulos del proyecto ni constituye otra entrega.
 
+Para ejecutar el mini proyecto ya preparado, seguir su [README](../ejemplos/django-postgresql/README.md); no repetir los comandos de creación de proyecto de esta guía.
+
 ## 1. Requisitos y versiones
 
 Instalar Python 3.12, Git, PostgreSQL 16 y pgAdmin. Usar VS Code para editar. La combinación de referencia utiliza Python 3.12.14, Django 5.2.19, psycopg 3.3.9, pytest 9.2.0 y pytest-django 4.14.0. Estas versiones documentan la reproducción; al actualizar dependencias, volver a comprobar compatibilidad y pruebas.

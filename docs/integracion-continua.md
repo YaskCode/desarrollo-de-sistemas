@@ -2,6 +2,8 @@
 
 GitHub Actions permite ejecutar la suite al actualizar el código. Este ejemplo corresponde al entorno de la [guía de preparación](entorno.md); adaptarlo al nombre real del proyecto cuando cambie. El workflow pertenece al repositorio del equipo y utiliza una BD PostgreSQL efímera de CI.
 
+El repositorio académico también incluye un [workflow del mini proyecto docente](../.github/workflows/ejemplo-django-postgresql.yml), cuyo código está en [ejemplos/django-postgresql](../ejemplos/django-postgresql/README.md).
+
 ## Workflow de referencia
 
 Guardar en `.github/workflows/pruebas.yml` del equipo:

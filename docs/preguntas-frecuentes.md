@@ -18,7 +18,7 @@ El renderizado comprueba que el código puede representarse. También debes veri
 
 ## ¿Dónde guardo código y documentación?
 
-En el repositorio del equipo de [YaskCode-laboratory](https://github.com/YaskCode-laboratory). Este repositorio académico centraliza materiales e instrucciones. No agregar la implementación de los equipos aquí.
+En el repositorio del equipo de [YaskCode-laboratory](https://github.com/YaskCode-laboratory). Este repositorio académico centraliza materiales e instrucciones. Los [ejemplos docentes](../ejemplos/README.md) son material del curso; no alojan las implementaciones completas de los equipos.
 
 ## ¿Cómo identifico la versión presentada?
 

@@ -19,6 +19,8 @@ Verificar comportamientos y registrar defectos, cambios y mantenimiento.
 2. [Ejemplo aplicado al proyecto de estudio](ejemplo-pruebas-mantenimiento.md).
 3. [Lecturas del Tema 6](../../recursos/bibliografia.md#tema-6).
 
+Consultar además el [mini proyecto Django/PostgreSQL](../../ejemplos/django-postgresql/README.md).
+
 ## Trabajo de la unidad y evaluación
 
 Corresponde a **E7 y E8**, según el [índice de ocho entregables](../../proyecto-integrador/entregables/README.md). Las fichas reúnen alcance, guía de elaboración, evidencias y comprobación previa. No se asignan tareas paralelas ni porcentajes internos.

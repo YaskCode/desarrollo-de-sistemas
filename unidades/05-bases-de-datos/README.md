@@ -17,6 +17,8 @@ Transformar un modelo ER en un esquema relacional normalizado.
 2. [Ejemplo aplicado al proyecto de estudio](ejemplo-base-datos.md).
 3. [Lecturas del Tema 5](../../recursos/bibliografia.md#tema-5).
 
+Consultar además el [mini proyecto Django/PostgreSQL](../../ejemplos/django-postgresql/README.md).
+
 ## Trabajo de la unidad y evaluación
 
 Corresponde a **E6**, según el [índice de ocho entregables](../../proyecto-integrador/entregables/README.md). Las fichas reúnen alcance, guía de elaboración, evidencias y comprobación previa. No se asignan tareas paralelas ni porcentajes internos.
