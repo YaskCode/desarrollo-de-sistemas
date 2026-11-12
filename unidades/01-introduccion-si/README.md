@@ -11,6 +11,12 @@
 
 Distinguir tipos de SI y justificar el alcance de una solución institucional.
 
+## Material de estudio
+
+1. [Apuntes: sistemas de información y desarrollo](apuntes.md).
+2. [Ejemplo de caracterización: postulación de pasantía](ejemplo-caracterizacion.md).
+3. [Lecturas del Tema I](../../recursos/bibliografia.md#tema-1).
+
 ## Trabajo de la unidad y evaluación
 
 Corresponde a **E1**, según el [índice de ocho entregables](../../proyecto-integrador/entregables/README.md). Las fichas reúnen alcance, guía de elaboración, evidencias y comprobación previa. No se asignan tareas paralelas ni porcentajes internos.
