@@ -90,7 +90,10 @@ jobs:
           docker compose -f .devcontainer/compose.yaml exec -T --user vscode app python -m pytest -q
       - name: Comprobar host y CSRF de Codespaces
         run: |
-          docker compose -f .devcontainer/compose.yaml exec -T --user vscode -e CODESPACES=true -e CODESPACE_NAME=pp4-prueba -e GITHUB_CODESPACES_PORT_FORWARDING_DOMAIN=app.github.dev app python -c 'from config.settings import ALLOWED_HOSTS, CSRF_TRUSTED_ORIGINS; assert "pp4-prueba-8000.app.github.dev" in ALLOWED_HOSTS; assert CSRF_TRUSTED_ORIGINS == ["https://pp4-prueba-8000.app.github.dev"]'
+          docker compose -f .devcontainer/compose.yaml exec -T --user vscode -e CODESPACES=true -e CODESPACE_NAME=pp4-prueba -e GITHUB_CODESPACES_PORT_FORWARDING_DOMAIN=app.github.dev app python -c 'from config.settings import ALLOWED_HOSTS, CSRF_TRUSTED_ORIGINS; assert "pp4-prueba-8000.app.github.dev" in ALLOWED_HOSTS; assert CSRF_TRUSTED_ORIGINS == ["https://pp4-prueba-8000.app.github.dev", "https://localhost:8000"]'
+      - name: Comprobar protección CSRF a través del túnel
+        run: |
+          docker compose -f .devcontainer/compose.yaml exec -T --user vscode -e CODESPACES=true -e CODESPACE_NAME=pp4-prueba -e GITHUB_CODESPACES_PORT_FORWARDING_DOMAIN=app.github.dev app python /workspaces/desarrollo-de-sistemas/.devcontainer/comprobar_csrf.py
       - name: Comprobar servidor HTTP
         run: |
           docker compose -f .devcontainer/compose.yaml exec -d --user vscode app python manage.py runserver 0.0.0.0:8000 --noreload

@@ -35,7 +35,7 @@ La suite existente contiene 19 pruebas y usa una base de pruebas separada. El co
 
 En VS Code local, abrir el puerto reenviado 8000 en `http://localhost:8000/entrar/`. En Codespaces, usar **Ports → 8000 → Open in Browser**, añadir `/entrar/` y comprobar que la visibilidad sea **Private** antes de utilizarlo. La configuración solicita visibilidad privada y desactiva el reenvío automático de otros puertos. PostgreSQL no publica ningún puerto del anfitrión; no reenviar 5432 manualmente.
 
-Django acepta el host concreto del puerto 8000 de ese Codespace y su origen HTTPS para los formularios protegidos por CSRF. No utiliza comodines. Si cambia el dominio de reenvío, reiniciar el contenedor y comprobar sus variables. No desactivar CSRF para resolver un error de acceso.
+Django acepta el host concreto del puerto 8000 de ese Codespace y su origen HTTPS para los formularios protegidos por CSRF. Exclusivamente en Codespaces, también acepta el origen exacto `https://localhost:8000` observado en el túnel privado; conserva la comprobación de cookie y token CSRF. No utiliza comodines. Si cambia el dominio de reenvío, reiniciar el contenedor y comprobar sus variables. No desactivar CSRF para resolver un error de acceso.
 
 ## 4. Explorar, modificar y probar
 

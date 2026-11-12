@@ -12,7 +12,12 @@ if os.environ.get("CODESPACES") == "true":
     domain = os.environ["GITHUB_CODESPACES_PORT_FORWARDING_DOMAIN"]
     forwarded_host = f"{codespace}-8000.{domain}"
     ALLOWED_HOSTS.append(forwarded_host)
-    CSRF_TRUSTED_ORIGINS = [f"https://{forwarded_host}"]
+    CSRF_TRUSTED_ORIGINS = [
+        f"https://{forwarded_host}",
+        # Origen observado en el túnel privado; solo para Codespaces.
+        # Se mantienen las comprobaciones de cookie y token CSRF.
+        "https://localhost:8000",
+    ]
 INSTALLED_APPS = [
     "django.contrib.admin", "django.contrib.auth", "django.contrib.contenttypes",
     "django.contrib.sessions", "django.contrib.messages", "django.contrib.staticfiles",
