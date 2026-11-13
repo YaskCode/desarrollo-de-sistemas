@@ -8,6 +8,14 @@ Universidad del Zulia · Facultad Experimental de Ciencias · Licenciatura en Co
 
 Espacio académico de [YaskCode](https://github.com/YaskCode) para analizar, modelar, diseñar, implementar, probar y documentar sistemas de información institucionales.
 
+## Empieza aquí
+
+1. Lee la [guía para estudiantes](docs/README.md) y el [plan de evaluación](docs/evaluacion.md).
+2. Consulta la [unidad correspondiente](unidades/README.md) y los [entregables E1–E8](proyecto-integrador/entregables/README.md) del proyecto de tu equipo.
+3. Explora el [codelab: Postulaciones con Django y PostgreSQL — de la regla a la prueba](https://yaskcode.github.io/desarrollo-de-sistemas/codelabs/postulaciones-django/), de la colección **YaskCode Codelabs**.
+
+El codelab es un ejemplo docente opcional que apoya E6, E7 y E8; no añade entregas ni sustituye el proyecto integrador. La guía pública incluye menú por pasos y comandos copiables. Para usar **«Comprobar mi progreso»**, sigue la [preparación del entorno privado](codelabs/postulaciones-django/README.md): las validaciones reales se ejecutan con Django y PostgreSQL.
+
 ## Navegación
 
 | Sección | Contenido disponible |
@@ -16,7 +24,8 @@ Espacio académico de [YaskCode](https://github.com/YaskCode) para analizar, mod
 | [Unidades](unidades/README.md) | Apuntes, ejemplos y lecturas de los seis temas |
 | [Presentaciones](presentaciones/README.md) | Presentación original para explicar la asignatura y el proyecto |
 | [Entorno listo para abrir](docs/devcontainer.md) | Dev Containers local y Codespaces |
-| [Ejemplos ejecutables](ejemplos/README.md) | Mini proyecto Django/PostgreSQL y pruebas |
+| [YaskCode Codelabs](https://yaskcode.github.io/desarrollo-de-sistemas/codelabs/postulaciones-django/) | Guía visual de postulaciones con Django/PostgreSQL, vinculada a E6–E8 |
+| [Ejemplos prácticos](ejemplos/README.md) | Mini proyecto Django/PostgreSQL y pruebas |
 | [Recursos](recursos/README.md) | Bibliografía del programa y documentación técnica |
 | [Entregables](proyecto-integrador/entregables/README.md) | Ruta única de trabajo práctico E1–E8 |
 | [Proyecto integrador](proyecto-integrador/proyectos-propuestos.md) | Cinco proyectos, ocho entregables y criterios de revisión |

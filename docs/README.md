@@ -7,6 +7,12 @@
 3. Consultar la ficha del [proyecto integrador](../proyecto-integrador/proyectos-propuestos.md) asignado al equipo.
 4. Desarrollar los [entregables E1–E8](../proyecto-integrador/entregables/README.md) en el repositorio del equipo en [YaskCode-laboratory](https://github.com/YaskCode-laboratory).
 
+## Explorar un ejemplo guiado
+
+El [codelab de postulaciones con Django y PostgreSQL](https://yaskcode.github.io/desarrollo-de-sistemas/codelabs/postulaciones-django/) permite examinar un ejemplo resuelto, recorrer sus reglas y comprobar resultados técnicos en un entorno privado. Consulta la [preparación del codelab](../codelabs/postulaciones-django/README.md) para ejecutar las validaciones reales.
+
+Es un recurso opcional de apoyo a E6–E8. El trabajo evaluado continúa en los entregables del proyecto del equipo; recorrer el codelab no equivale a entregar ni aprobar esos productos.
+
 ## Ruta de estudio en cada unidad
 
 | Paso | Qué hacer | Resultado que debes poder explicar |
