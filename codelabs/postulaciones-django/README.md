@@ -1,6 +1,8 @@
 # Codelab propio de PP4
 
-[Leer el recorrido](codelab.md). La fuente Markdown se utiliza tanto para lectura en GitHub como para los siete pasos de `/codelab/` en Django. No depende de claat ni de servicios nuevos. La lectura en GitHub no ejecuta comprobaciones.
+[Leer el recorrido](codelab.md). La ficha editorial compartida se mantiene en `metadata.json`: colección, título, autoría y diseño didáctico, fecha de revisión real, área, tecnologías y contexto académico. La fecha se actualiza cuando se revisa el contenido, no en cada construcción automática.
+
+La fuente Markdown se utiliza tanto para lectura en GitHub como para los siete pasos de `/codelab/` en Django. No depende de claat ni de servicios nuevos. La lectura en GitHub no ejecuta comprobaciones.
 
 ## Ejecutar la experiencia interactiva
 
@@ -17,7 +19,7 @@ Abrir `/codelab/` desde el enlace actual del puerto 8000 privado; entrar con la 
 | Componente | Responsabilidad |
 |---|---|
 | `codelab.md` | Contenido y recursos enlazados |
-| `gestion/codelab_content.py` | Renderizador limitado: párrafos, enlaces HTTP(S) y bloques copiables; escapa HTML |
+| `gestion/codelab_content.py` | Renderizador limitado: párrafos, subtítulos de nivel 3, enlaces HTTP(S) y bloques copiables; escapa HTML |
 | `gestion/codelab.py` | Criterios cerrados, ejecución, evidencia y vigencia |
 | Plantilla, CSS y JS de `gestion` | Navegación, teclado, estados, descarga y consulta de vigencia |
 | `.devcontainer/comprobar_codelab.py` | Regresiones con Django y PostgreSQL reales |

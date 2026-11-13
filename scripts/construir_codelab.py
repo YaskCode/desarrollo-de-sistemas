@@ -15,14 +15,14 @@ settings.configure(
 import django
 django.setup()
 from django.template.loader import render_to_string
-from gestion.codelab_content import steps
+from gestion.codelab_content import steps, metadata
 
 
 def build(output):
     destination = output / "codelabs/postulaciones-django"
     assets = destination / "assets"
     assets.mkdir(parents=True, exist_ok=True)
-    content = render_to_string("gestion/codelab.html", {"steps":steps(), "public":True})
+    content = render_to_string("gestion/codelab.html", {"steps":steps(), "metadata":metadata(), "public":True})
     assert "csrfmiddlewaretoken" not in content
     assert 'class="check"' not in content
     assert len(steps()) == 7
