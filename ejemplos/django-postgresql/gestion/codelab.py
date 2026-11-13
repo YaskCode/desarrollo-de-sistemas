@@ -117,8 +117,8 @@ def run_tests(selectors):
 @require_GET
 def page(request):
     enabled()
-    from .codelab_content import steps
-    return render(request, "gestion/codelab.html", {"steps": steps()})
+    from .codelab_content import steps, metadata
+    return render(request, "gestion/codelab.html", {"steps": steps(), "metadata": metadata()})
 
 
 @login_required

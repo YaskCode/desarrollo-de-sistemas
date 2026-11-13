@@ -1,0 +1,16 @@
+{
+  "collection": "YaskCode Codelabs",
+  "title": "Postulaciones con Django y PostgreSQL: de la regla a la prueba",
+  "author": "Dra. Yaskelly Yedra",
+  "updated": "2026-11-12",
+  "updated_label": "12 de noviembre de 2026",
+  "area": "Ingeniería de Software",
+  "technologies": [
+    "Django",
+    "PostgreSQL",
+    "GitHub Actions"
+  ],
+  "course": "PP4 – Desarrollo de Sistemas",
+  "institution": "Facultad Experimental de Ciencias · Universidad del Zulia · Venezuela",
+  "scope": "Explora un ejemplo ya resuelto y contrasta una regla de negocio con modelos, persistencia y pruebas. Este recorrido complementa E6–E8."
+}

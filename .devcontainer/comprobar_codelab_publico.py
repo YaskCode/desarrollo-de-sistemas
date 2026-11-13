@@ -29,6 +29,9 @@ try:
         page.on('request',lambda request:requests.append(request.url))
         page.goto('http://127.0.0.1:8765/codelabs/postulaciones-django/')
         expect(page.locator('.public-notice')).to_be_visible()
+        expect(page.locator('.about')).to_contain_text('Autoría y diseño didáctico')
+        expect(page.locator('.about')).to_contain_text('Dra. Yaskelly Yedra')
+        expect(page.locator('header')).to_contain_text('YaskCode Codelabs')
         assert page.locator('[data-criterion],.check,[name=csrfmiddlewaretoken]').count()==0
         assert page.locator('nav').bounding_box()['x'] < page.locator('main').bounding_box()['x']
         page.screenshot(path=str(OUT/'publico-escritorio.png'),full_page=True)
@@ -53,6 +56,12 @@ try:
         page.set_viewport_size({'width':390,'height':844})
         assert not page.evaluate('document.documentElement.scrollWidth>innerWidth')
         page.screenshot(path=str(OUT/'publico-movil.png'),full_page=True)
+        page.locator('nav a').last.click()
+        expect(page.locator('#paso-7')).to_be_visible()
+        expect(page.locator('#paso-7 h3')).to_have_count(5)
+        assert page.locator('#paso-7 .check').count()==0
+        expect(page.locator('#paso-7')).to_contain_text('¡Felicitaciones por tu recorrido!')
+        page.screenshot(path=str(OUT/'publico-cierre.png'),full_page=True)
         assert not any('/estado/' in url or '/comprobar/' in url for url in requests), requests
         assert not errors,errors
         # Sin JS sigue siendo una guía completa de siete pasos.
